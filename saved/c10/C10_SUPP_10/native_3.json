@@ -1,0 +1,23 @@
+{
+  "run": 3,
+  "start": "exposure",
+  "tol": 1e-12,
+  "estimate": {
+    "beta": -0.3597920024561743,
+    "SE": 0.32837636660756914,
+    "IRR": 0.6978214561260634,
+    "CI_low": 0.35613674845560195,
+    "CI_high": 1.3673252949649086,
+    "P": 0.2825585173370378,
+    "reference": "t",
+    "df": 28
+  },
+  "iterations": 24,
+  "normalized_score": 8.458563152824347e-15,
+  "last_five_deviance": 5.143528301023699e-16,
+  "solver_gate": true,
+  "covariance_gate": true,
+  "CR1": 1.2927800616649539,
+  "weighted_rank": 70,
+  "warnings": []
+}

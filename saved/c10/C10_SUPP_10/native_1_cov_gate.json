@@ -1,0 +1,13 @@
+{
+  "CR1": 1.2927800616649539,
+  "n": 348,
+  "r": 70,
+  "G": 29,
+  "weighted_threshold": 2.462476757392715e-10,
+  "weighted_rank": 70,
+  "symmetry_relative": 8.47441466453861e-16,
+  "min_eigenvalue": -1.9735734779045457e-16,
+  "PSD_scale": 1.05672628898991,
+  "weighted_condition": 1415.366518121279,
+  "covariance_gate": true
+}

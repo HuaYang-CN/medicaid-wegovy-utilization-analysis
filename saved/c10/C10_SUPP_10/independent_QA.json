@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "algorithm": "distinct Newton/einsum/numpy solve/add.at/t-cdf-isf",
+  "checks": {
+    "all_beta": true,
+    "all_mu": true,
+    "full_covariance": true,
+    "SE": true,
+    "full_H": true,
+    "CR1": true,
+    "n_G_r": true,
+    "finite": true,
+    "symmetry": true,
+    "PSD": true,
+    "target_variance_positive": true
+  },
+  "estimate": {
+    "beta": -0.3597920024561688,
+    "SE": 0.32837636660763814,
+    "IRR": 0.6978214561260673,
+    "CI_low": 0.3561367484555537,
+    "CI_high": 1.367325294965109,
+    "P": 0.28255851733714415,
+    "df": 28
+  },
+  "iterations": 14,
+  "score": 1.84551873536675e-15,
+  "native_stability": {
+    "2": {
+      "params": true,
+      "mu": true,
+      "cov": true
+    },
+    "3": {
+      "params": true,
+      "mu": true,
+      "cov": true
+    }
+  },
+  "max_beta_difference": 4.8183679268731794e-14,
+  "max_mu_difference": 9.022187441587448e-10,
+  "max_cov_difference": 3.923250613269147e-14,
+  "symmetry": 1.521155666041976e-13,
+  "min_eigenvalue": -2.054312513674579e-16
+}

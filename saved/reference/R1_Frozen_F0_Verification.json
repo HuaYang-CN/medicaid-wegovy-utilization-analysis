@@ -1,0 +1,44 @@
+{
+  "scope": "One original clean F0 fit, original start and 1e-10 tolerance; NM matrix diagnostic only",
+  "n": 348,
+  "G": 29,
+  "rank": 70,
+  "estimates": {
+    "beta": -0.0002445627211488952,
+    "SE": 0.3286774412407873,
+    "IRR": 0.9997554671818756,
+    "CI_low": 0.5099157409657245,
+    "CI_high": 1.9601493224490112,
+    "P": 0.9994115852180573,
+    "reference": "t",
+    "df": 28
+  },
+  "differences_from_saved": {
+    "beta": 0.0,
+    "SE": 0.0,
+    "IRR": 0.0,
+    "CI_low": 0.0,
+    "CI_high": 0.0,
+    "P": 0.0
+  },
+  "original_beta_SE_tolerances_met": true,
+  "solver_gate": true,
+  "covariance_gate": true,
+  "separation_status": "NO_ZERO_OUTCOMES",
+  "iterations": 16,
+  "normalized_score": 5.9268019665297106e-15,
+  "last_five_deviance_relative_max": 6.848799768761658e-16,
+  "CR1": 1.2927800616649539,
+  "NM_deletion": {
+    "n": 332,
+    "G": 28,
+    "k": 68,
+    "rank": 66,
+    "rank_without_target": 66,
+    "target_estimable": false,
+    "fit_executed": false
+  },
+  "other_models": "NOT_EXECUTED",
+  "upstream_download_reproduction": "NOT_EXECUTED",
+  "original_historical_environment": "NOT_VERIFIABLE; using frozen independent audit environment"
+}

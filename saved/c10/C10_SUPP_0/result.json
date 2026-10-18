@@ -1,0 +1,20 @@
+{
+  "scenario": "C10_SUPP_0",
+  "assignment": 0,
+  "beta": "NA",
+  "SE": "NA",
+  "IRR": "NA",
+  "CI_low": "NA",
+  "CI_high": "NA",
+  "P": "NA",
+  "requested_n": 348,
+  "effective_n": 346,
+  "G": 29,
+  "rank": 69,
+  "columns": 70,
+  "df": 28,
+  "CR1": "NA",
+  "status": "NOT_IDENTIFIABLE",
+  "reason": "DDD absorbed after formal separated-row removal",
+  "implemented_at": "2026-10-17T22:19:48.685013+08:00"
+}

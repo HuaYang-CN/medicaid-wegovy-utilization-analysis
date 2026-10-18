@@ -1,0 +1,20 @@
+{
+  "scenario": "C10_SUPP_10",
+  "assignment": 10,
+  "beta": -0.35979200245615317,
+  "SE": 0.32837636660767555,
+  "IRR": 0.6978214561260782,
+  "CI_low": 0.3561367484555319,
+  "CI_high": 1.3673252949652357,
+  "P": 0.2825585173372184,
+  "requested_n": 348,
+  "effective_n": 348,
+  "G": 29,
+  "rank": 70,
+  "columns": 70,
+  "df": 28,
+  "CR1": 1.2927800616649539,
+  "status": "VALID_CONDITIONAL_SCENARIO",
+  "reason": "POST_HOC_OPERATIONAL_SUPPRESSION_ASSIGNMENT; NOT_STRICT_BOUND_OR_CAUSAL_EFFECT",
+  "implemented_at": "2026-10-17T22:19:48.862097+08:00"
+}
