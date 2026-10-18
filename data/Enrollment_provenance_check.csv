@@ -1,0 +1,18 @@
+﻿check,finding,status,evidence
+source_sha256,15de13cd3d58be21e94b560cfe7ad0bf4b7ccd05c2fa9701c48b1f1261d9a67e,CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+source_version,Retained extract matches manifest; dataset 6165f45b-ca93-5bb5-9d06-db29c692a360; manifest lacks independent enrollment retrieval/revision timestamp,NOT_VERIFIABLE,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+raw_rows,8568,CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+raw_type_split,4284 P/N; 4284 U/Y,CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+actual_selection,preliminary_or_updated=U AND final_report=Y; no preliminary fallback,CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+selected_state_months,4284,CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+selected_state_month_duplicates,0,CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+duplicate_resolution,No selected duplicate keys; no further deduplication invoked,CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+study_window_selected_months_51,1683,CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+clean_model_selected_months,522,CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+clean_model_R1_valid_months,521,CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+R1_rule,Finite nonnegative value; system-unavailable footnote set missing; quarter needs >=2 valid months; other scope footnotes retained,CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+RI_2024Q4,"{'N': 273605.0, 'valid_months': 2.0}",CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+quarterly_reconstruction_max_abs_difference,0.0,RESOLVED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+model_offset_max_abs_difference,1.7763568394002505e-15,RESOLVED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+definition,"total_medicaid_enrollment, not total_medicaid_and_chip_enrollment or indication/channel-specific population",CONFIRMED,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model
+local_primary_data_dictionary,No dictionary with month-end/full-benefit field definition located in retained enrollment metadata; avoid adding unsupported precision,NOT_VERIFIABLE,original enrollment CSV + manifest + scripts/02_build_analysis.py load_enrollment + Stage04B/R1/inputs.py + frozen C10 model

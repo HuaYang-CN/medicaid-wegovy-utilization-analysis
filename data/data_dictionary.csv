@@ -1,0 +1,484 @@
+file,field,definition,missing,examples
+Figure_1_support.csv,quarter,"Calendar quarter, YYYYQq.",Blank/NA/NOT_VERIFIABLE never means zero.,2023Q2 | 2023Q3
+Figure_1_support.csv,coverage_group,Historical fixed coverage-environment group.,Blank/NA/NOT_VERIFIABLE never means zero.,COVERAGE | NONCOVERAGE
+Figure_1_support.csv,requested_state_n,Number of jurisdictions meeting the requested support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,12 | 34
+Figure_1_support.csv,included_state_n,Number of actually included jurisdictions for this group/quarter.,Blank/NA/NOT_VERIFIABLE never means zero.,8 | 0
+Figure_1_support.csv,included_state_list,Semicolon-separated included jurisdiction abbreviations.,Blank/NA/NOT_VERIFIABLE never means zero.,CA;DE;MI;MN;NH;PA;RI;VA | CA;DE;MI;MN;MS;PA;RI;VA
+Figure_1_support.csv,excluded_state_list,Jurisdiction abbreviations meeting the excluded support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,KS;MA;MS;WI | AK;AL;AR;AZ;CO;CT;DC;FL;GA;HI;IA;ID;IL;IN;KY;LA;MD;ME;MT;ND;NE;NJ;NM;NV;NY;OH;OK;OR;SD;TX;VT;WA;WV;WY
+Figure_1_support.csv,missing_source_state_n,Number of jurisdictions meeting the missing source support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,4 | 34
+Figure_1_support.csv,missing_source_state_list,Jurisdiction abbreviations meeting the missing source support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,KS;MA;MS;WI | AK;AL;AR;AZ;CO;CT;DC;FL;GA;HI;IA;ID;IL;IN;KY;LA;MD;ME;MT;ND;NE;NJ;NM;NV;NY;OH;OK;OR;SD;TX;VT;WA;WV;WY
+Figure_1_support.csv,invalid_population_state_n,Number of jurisdictions meeting the invalid population support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,0
+Figure_1_support.csv,source_NDC_count,Count of distinct source NDCs within the aggregation.,Blank/NA/NOT_VERIFIABLE never means zero.,69 | 0
+Figure_1_support.csv,suppressed_NDC_rows,Count of source rows carrying suppressed prescription quantities.,Blank/NA/NOT_VERIFIABLE never means zero.,13 | 0
+Figure_1_support.csv,numerator_observed,Sum of numeric returned prescription quantities.,Blank/NA/NOT_VERIFIABLE never means zero.,115417.0 | 0
+Figure_1_support.csv,numerator_assigned,Contribution assigned to suppressed returned quantities.,Blank/NA/NOT_VERIFIABLE never means zero.,71.5 | 55.0
+Figure_1_support.csv,numerator_total_scenario,Saved numeric plus scenario-assigned prescription total.,Blank/NA/NOT_VERIFIABLE never means zero.,115488.5 | 112925.0
+Figure_1_support.csv,denominator_unique,Sum of unique R1 state-quarter total Medicaid denominators.,Blank/NA/NOT_VERIFIABLE never means zero.,23625800.666666668 | 0
+Figure_1_support.csv,fully_observed_included_state_n,Included jurisdictions whose returned quantities are all numeric.,Blank/NA/NOT_VERIFIABLE never means zero.,3 | 0
+Figure_1_support.csv,fully_observed_state_list,Jurisdictions with entirely numeric returned quantities.,Blank/NA/NOT_VERIFIABLE never means zero.,MI;MN;PA | MI;MN;MS
+Figure_1_support.csv,M10_pair_included_state_n,Number of jurisdictions also satisfying paired-product primary support.,Blank/NA/NOT_VERIFIABLE never means zero.,8 | 0
+Figure_1_support.csv,M10_pair_state_list,Jurisdiction membership of paired-product support.,Blank/NA/NOT_VERIFIABLE never means zero.,CA;DE;MI;MN;NH;PA;RI;VA | CA;DE;MI;MN;MS;PA;RI;VA
+Figure_1_support.csv,Wonly_not_M10_states,Wegovy-only source support absent from paired-product primary support.,Blank/NA/NOT_VERIFIABLE never means zero.,CA;MA;MI;MN;MS;PA;RI;VA | IN
+Figure_1_support.csv,selection_mechanism,Rule selecting the displayed source-present jurisdiction set.,Blank/NA/NOT_VERIFIABLE never means zero.,SOURCE_PRESENCE_NOT_CMS_COMPLETE_REPORTING; changes not proof of missing-at-random
+Figure_1_support.csv,Source_CSV,"Frozen provenance, definition, or disposition: Source CSV. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04E_A\04E_A_Reportability_and_Missingness.csv
+Figure_1_support.csv,Source_SHA256,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,758968bf9116f3c5d5e234310a1b0bd3a0d83c8ae0473db58ef8be21a7d5e04d
+Figure_1_support.csv,Source_Record,One-based source CSV data-record number.,Blank/NA/NOT_VERIFIABLE never means zero.,1 | 2
+Figure_1_support.csv,Present_with_suppression_state_n,Source-present jurisdictions with at least one suppressed quantity.,Blank/NA/NOT_VERIFIABLE never means zero.,5 | 0
+Figure_1_support.csv,Unknown_total_state_n,Requested jurisdictions missing the required source channel or valid support.,Blank/NA/NOT_VERIFIABLE never means zero.,4 | 34
+Figure_1_support.csv,Missing_vs_unknown,Reason absence is unknown rather than a measured zero.,Blank/NA/NOT_VERIFIABLE never means zero.,MISSING_SOURCE_IS_EXTRACT_STATUS; TRUE_PRESCRIPTION_TOTAL_UNKNOWN
+Figure_point_lineage.csv,Figure_ID,"Frozen provenance, definition, or disposition: Figure ID. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,Figure1_Data_Reportability | Figure2_Conditional_Wegovy_Rates
+Figure_point_lineage.csv,Panel,Panel identifier within the named frozen figure.,Blank/NA/NOT_VERIFIABLE never means zero.,1 | 2
+Figure_point_lineage.csv,Series,Plotted series identity.,Blank/NA/NOT_VERIFIABLE never means zero.,requested_state_n | included_state_n
+Figure_point_lineage.csv,Result_ID,Stable frozen result identity; not an independent study.,Blank/NA/NOT_VERIFIABLE never means zero.,C_PRIMARY_BINARY_CLEAN | C_R2_R2_M01_NATIVE_Early×DDD
+Figure_point_lineage.csv,Quarter,Frozen quarter provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,2023Q2 | 2023Q3
+Figure_point_lineage.csv,Group_or_State,Group or state that the plotted value represents.,Blank/NA/NOT_VERIFIABLE never means zero.,COVERAGE | NONCOVERAGE
+Figure_point_lineage.csv,Field,"Frozen provenance, definition, or disposition: Field. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,requested_state_n | included_state_n
+Figure_point_lineage.csv,Frozen_Value,Exact saved value plotted; unit is determined by Field and source record.,Blank/NA/NOT_VERIFIABLE never means zero.,12 | 8
+Figure_point_lineage.csv,Source_CSV,"Frozen provenance, definition, or disposition: Source CSV. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04E_A\04E_A_Reportability_and_Missingness.csv | PROJECT_ROOT/03_audit_outputs\Stage04E_A\04E_A_Group_Quarter_Numerators_Denominators.csv
+Figure_point_lineage.csv,Source_Record,One-based source CSV data-record number.,Blank/NA/NOT_VERIFIABLE never means zero.,1 | 3
+Figure_point_lineage.csv,Source_SHA256,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,758968bf9116f3c5d5e234310a1b0bd3a0d83c8ae0473db58ef8be21a7d5e04d | 899fa5076a1ce263a0ba155b3ada6e39d8febc222473dbdea9c3ebdfb4214821
+Figure_point_lineage.csv,Derivation,Documented deterministic display derivation; not a new fit.,Blank/NA/NOT_VERIFIABLE never means zero.,DIRECT_FROZEN_FIELD | included_minus_fully_observed
+Figure_point_lineage.csv,Variant,Frozen model/display variant.,Blank/NA/NOT_VERIFIABLE never means zero.,R11_SOURCE_PRESENT_SUPPORT | F2_M10_SAME_MODEL_SUPPORT
+Figure_point_lineage.csv,Scenario,Operational assignment scenario.,Blank/NA/NOT_VERIFIABLE never means zero.,0.0 | 5.5
+Figure_S3_clean_and_alternative_support.csv,Variant_ID,"Model, data-rule or diagnostic variant identity.",Blank/NA/NOT_VERIFIABLE never means zero.,R11_STRICT46_REQUESTED | R11_STRICT46_SCENARIO
+Figure_S3_clean_and_alternative_support.csv,Family,Frozen family provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,F2-R11 | F2-M10
+Figure_S3_clean_and_alternative_support.csv,Suppression_Scenario,Operational per-row assignment; not measured count or universal bound.,Blank/NA/NOT_VERIFIABLE never means zero.,NONE_TRUE_RATE | 0.0
+Figure_S3_clean_and_alternative_support.csv,coverage_group,Historical fixed coverage-environment group.,Blank/NA/NOT_VERIFIABLE never means zero.,COVERAGE | NONCOVERAGE
+Figure_S3_clean_and_alternative_support.csv,quarter,"Calendar quarter, YYYYQq.",Blank/NA/NOT_VERIFIABLE never means zero.,2023Q2 | 2023Q3
+Figure_S3_clean_and_alternative_support.csv,product,Brand-defined product; Wegovy and Ozempic remain distinct.,Blank/NA/NOT_VERIFIABLE never means zero.,WEGOVY_ONLY
+Figure_S3_clean_and_alternative_support.csv,requested_state_n,Number of jurisdictions meeting the requested support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,12 | 34
+Figure_S3_clean_and_alternative_support.csv,analytic_quarter_requested,Whether this quarter was requested for the stated series.,Blank/NA/NOT_VERIFIABLE never means zero.,True | False
+Figure_S3_clean_and_alternative_support.csv,included_state_n,Number of actually included jurisdictions for this group/quarter.,Blank/NA/NOT_VERIFIABLE never means zero.,12 | 34
+Figure_S3_clean_and_alternative_support.csv,included_state_list,Semicolon-separated included jurisdiction abbreviations.,Blank/NA/NOT_VERIFIABLE never means zero.,CA;DE;KS;MA;MI;MN;MS;NH;PA;RI;VA;WI | AK;AL;AR;AZ;CO;CT;DC;FL;GA;HI;IA;ID;IL;IN;KY;LA;MD;ME;MT;ND;NE;NJ;NM;NV;NY;OH;OK;OR;SD;TX;VT;WA;WV;WY
+Figure_S3_clean_and_alternative_support.csv,excluded_state_list,Jurisdiction abbreviations meeting the excluded support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,KS;MA;MS;WI | AK;AL;AR;AZ;CO;CT;DC;FL;GA;HI;IA;ID;IL;IN;KY;LA;MD;ME;MT;ND;NE;NJ;NM;NV;NY;OH;OK;OR;SD;TX;VT;WA;WV;WY
+Figure_S3_clean_and_alternative_support.csv,requested_state_list,Jurisdiction abbreviations meeting the requested support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,CA;DE;KS;MA;MI;MN;MS;NH;PA;RI;VA;WI | AK;AL;AR;AZ;CO;CT;DC;FL;GA;HI;IA;ID;IL;IN;KY;LA;MD;ME;MT;ND;NE;NJ;NM;NV;NY;OH;OK;OR;SD;TX;VT;WA;WV;WY
+Figure_S3_clean_and_alternative_support.csv,source_present_state_n,Number of jurisdictions meeting the source present support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,8 | 0
+Figure_S3_clean_and_alternative_support.csv,missing_source_state_n,Number of jurisdictions meeting the missing source support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,4 | 34
+Figure_S3_clean_and_alternative_support.csv,missing_source_state_list,Jurisdiction abbreviations meeting the missing source support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,KS;MA;MS;WI | AK;AL;AR;AZ;CO;CT;DC;FL;GA;HI;IA;ID;IL;IN;KY;LA;MD;ME;MT;ND;NE;NJ;NM;NV;NY;OH;OK;OR;SD;TX;VT;WA;WV;WY
+Figure_S3_clean_and_alternative_support.csv,invalid_population_state_n,Number of jurisdictions meeting the invalid population support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,0
+Figure_S3_clean_and_alternative_support.csv,invalid_population_state_list,Jurisdiction abbreviations meeting the invalid population support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Figure_S3_clean_and_alternative_support.csv,fully_observed_source_state_n,Source-present jurisdictions whose returned quantities are all numeric.,Blank/NA/NOT_VERIFIABLE never means zero.,3 | 0
+Figure_S3_clean_and_alternative_support.csv,numerator_observed,Sum of numeric returned prescription quantities.,Blank/NA/NOT_VERIFIABLE never means zero.,124096.0 | 930.0
+Figure_S3_clean_and_alternative_support.csv,numerator_observed_is_complete,Whether the returned numeric portion is complete for the defined source set; not all CMS reporting.,Blank/NA/NOT_VERIFIABLE never means zero.,False | True
+Figure_S3_clean_and_alternative_support.csv,suppressed_NDC_rows,Count of source rows carrying suppressed prescription quantities.,Blank/NA/NOT_VERIFIABLE never means zero.,21 | 42
+Figure_S3_clean_and_alternative_support.csv,source_NDC_count,Count of distinct source NDCs within the aggregation.,Blank/NA/NOT_VERIFIABLE never means zero.,87 | 60
+Figure_S3_clean_and_alternative_support.csv,numerator_assigned,Contribution assigned to suppressed returned quantities.,Blank/NA/NOT_VERIFIABLE never means zero.,0.0 | 71.5
+Figure_S3_clean_and_alternative_support.csv,numerator_total_scenario,Saved numeric plus scenario-assigned prescription total.,Blank/NA/NOT_VERIFIABLE never means zero.,115417.0 | 115488.5
+Figure_S3_clean_and_alternative_support.csv,denominator_unique,Sum of unique R1 state-quarter total Medicaid denominators.,Blank/NA/NOT_VERIFIABLE never means zero.,27964839.666666668 | 51985878.666666664
+Figure_S3_clean_and_alternative_support.csv,rate_per_100000,Saved numerator/unique denominator ×100000; blank when no support.,Blank/NA/NOT_VERIFIABLE never means zero.,488.5210098417546 | 488.82364508789414
+Figure_S3_clean_and_alternative_support.csv,actual_numeric_identifiability,Whether the actual quantity is known numerically; assignments do not make it known.,Blank/NA/NOT_VERIFIABLE never means zero.,False | True
+Figure_S3_clean_and_alternative_support.csv,scenario_identifiability,Whether the stipulated operational scenario quantity is calculable.,Blank/NA/NOT_VERIFIABLE never means zero.,NOT_IDENTIFIABLE | SCENARIO_ON_SOURCE_PRESENT_SUPPORT
+Figure_S3_clean_and_alternative_support.csv,missingness_reason,Reason required source support is unavailable.,Blank/NA/NOT_VERIFIABLE never means zero.,UNKNOWN_CHANNEL_SOURCE | NONE
+Figure_S3_clean_and_alternative_support.csv,population_version,"R1 corrected quarterly mean, R2 exclusion, or historical R3 denominator version.",Blank/NA/NOT_VERIFIABLE never means zero.,R1
+Figure_S3_clean_and_alternative_support.csv,rule,Frozen missingness/enrollment/support rule.,Blank/NA/NOT_VERIFIABLE never means zero.,STRICT_TRUE | STRICT_SCENARIO
+Figure_S3_clean_and_alternative_support.csv,clock,FFSU payment quarter versus MCOU dispensing quarter.,Blank/NA/NOT_VERIFIABLE never means zero.,FFSU_PAID_PLUS_MCOU_DISPENSE_MIXED
+Figure_S3_clean_and_alternative_support.csv,Q1_display_gap,Whether 2024Q1 is deliberately left as an excluded calendar gap.,Blank/NA/NOT_VERIFIABLE never means zero.,False | True
+Figure_S3_clean_and_alternative_support.csv,source_key_hash,SHA256 identity of the named frozen key/version sequence.,Blank/NA/NOT_VERIFIABLE never means zero.,b50271cc7010e243dcf3b7e9d2053d8d058dc4284e47d5c0ca296bf5fad16461 | 7324f51b30fb0c8e9da33ab030a73a37bef3800c94cbb4a6a42c417c49be1702
+Figure_S3_clean_and_alternative_support.csv,population_key_hash,SHA256 identity of the named frozen key/version sequence.,Blank/NA/NOT_VERIFIABLE never means zero.,cc5b12ddcc48d22a0948802d15fe9e3e08e7c21a3d8f049fa3e1aada77752935 | 52aa4c6910349a37166bc8c731dcb243576c077c8a520e6ebabe4b5a3c4413f3
+Figure_S3_clean_and_alternative_support.csv,population_source_key_hash,SHA256 identity of the named frozen key/version sequence.,Blank/NA/NOT_VERIFIABLE never means zero.,722ca97e7a93375f60a0f5d23987c8a350973ee175f60c0fb22468cea23f7ff9 | 9db962853542f5b63fb125b5e86cf1f4dd805a1e5d24d29937c34c08749bbf43
+Figure_S3_clean_and_alternative_support.csv,result_identity,Stable identity of the frozen rate/support result.,Blank/NA/NOT_VERIFIABLE never means zero.,STRICT_TRUE_RATE_UNKNOWN | CORRECTED_STRICT_REQUEST_SCENARIO
+Figure_S3_clean_and_alternative_support.csv,data_version_hash,SHA256 identity of the named frozen key/version sequence.,Blank/NA/NOT_VERIFIABLE never means zero.,1c04ea87044a9d7a1abacadb1ef41ce5630b7d2f2ed816f849603046e5edef9b | baed0496153ba8b31ea8a405f2f6bdb58c56de534d9b8ce04d7cf15b38b0dda9
+Figure_S3_clean_and_alternative_support.csv,Source_CSV,"Frozen provenance, definition, or disposition: Source CSV. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04E_A\04E_A_Group_Quarter_Numerators_Denominators.csv
+Figure_S3_clean_and_alternative_support.csv,Source_SHA256,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,899fa5076a1ce263a0ba155b3ada6e39d8febc222473dbdea9c3ebdfb4214821
+Figure_S3_clean_and_alternative_support.csv,Source_Record,One-based source CSV data-record number.,Blank/NA/NOT_VERIFIABLE never means zero.,67 | 68
+Figure_S3_clean_and_alternative_support.csv,State_Source_CSV,"Frozen provenance, definition, or disposition: State Source CSV. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04E_A\04E_A_State_Quarter_Wegovy_Status.csv
+Figure_S3_clean_and_alternative_support.csv,State_Source_SHA256,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,dbcaebcf70257973472785f3ce36ddb60e7a6807add06c63fe59797512348f0a
+Figure_S3_clean_and_alternative_support.csv,Display_Numerator_Definition,"Definition of displayed prescription numerator, including assigned component.",Blank/NA/NOT_VERIFIABLE never means zero.,REPORTED_NUMERIC_PLUS_SEPARATELY_ASSIGNED_SUPPRESSED_SOURCE_ROWS
+Figure_S3_clean_and_alternative_support.csv,Population_Definition,"Frozen provenance, definition, or disposition: Population Definition. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,UNIQUE_STATE_QUARTER_TOTAL_MEDICAID_R1_AT_LEAST_TWO_VALID_MONTHS
+Figure_S3_clean_and_alternative_support.csv,Policy_Definition,Coverage environment definition; not patient eligibility or implementation date.,Blank/NA/NOT_VERIFIABLE never means zero.,P1_JULY2024_FFS_OBESITY_ENVIRONMENT; HISTORICAL_46_SELECTION; NOT_DATED_CVD_MCO_EXPOSURE
+Figure_S3_clean_and_alternative_support.csv,True_Full46_Rate,"Verification status of the true full requested-domain rate, distinct from conditional rate.",Blank/NA/NOT_VERIFIABLE never means zero.,NOT_VERIFIABLE
+Figure_S3_clean_and_alternative_support.csv,Scenario_Interpretation,"Frozen provenance, definition, or disposition: Scenario Interpretation. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,0_5.5_10_ASSIGNMENTS_NOT_STRICT_BOUNDS
+Figure_S3_clean_and_alternative_support.csv,Display_QA,"Frozen provenance, definition, or disposition: Display QA. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PASS_UNKNOWN_FULL_DOMAIN_RATE_REMAINS_NA | PASS_SAME_DEFINITION_COMPONENTS_AND_UNIQUE_POPULATION
+Policy_dictionary_51.csv,State,Two-letter jurisdiction code.,Blank/NA/NOT_VERIFIABLE never means zero.,AK | AL
+Policy_dictionary_51.csv,State_Name,Jurisdiction name.,Blank/NA/NOT_VERIFIABLE never means zero.,Alaska | Alabama
+Policy_dictionary_51.csv,Initial_Classification,Inherited July 2024 coverage-environment binary label.,Blank/NA/NOT_VERIFIABLE never means zero.,NONCOVERAGE | COVERAGE
+Policy_dictionary_51.csv,Source_Snapshot,"Frozen provenance, definition, or disposition: Source Snapshot. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,2024-07-01 / 2025-10-01 / 2026-01-01 (code-assigned; CSV itself undated)
+Policy_dictionary_51.csv,Original_Response,Original survey response text.,Blank/NA/NOT_VERIFIABLE never means zero.,Not covered | Coverage in place and covers GLP-1s for obesity treatment
+Policy_dictionary_51.csv,Reported_Effective_Date,Documented policy effective date or UNKNOWN.,Blank/NA/NOT_VERIFIABLE never means zero.,UNKNOWN | 2026-01-01 termination per KFF 2025 report; announcement/source implementation not independently archived
+Policy_dictionary_51.csv,Coverage_Indication,Product/indication scope actually supported by frozen evidence.,Blank/NA/NOT_VERIFIABLE never means zero.,"GLP-1 obesity treatment, class-level; Wegovy-specific status UNKNOWN | 2024 FFS obesity treatment includes Wegovy; indication-specific CVD implementation UNKNOWN"
+Policy_dictionary_51.csv,FFS_or_MCO,Payment-channel scope and uncertainty.,Blank/NA/NOT_VERIFIABLE never means zero.,FFS snapshot verified by KFF; state-specific MCO administration UNKNOWN | Official addition/reinstatement apply to NC Medicaid Direct and Managed Care; operational system dates UNKNOWN
+Policy_dictionary_51.csv,Restriction,Known PA/product restrictions or UNKNOWN.,Blank/NA/NOT_VERIFIABLE never means zero.,UNKNOWN; source marker // | Utilization controls present per KFF; state-specific criteria UNKNOWN
+Policy_dictionary_51.csv,Change_History,Frozen sequence of responses or documented intervening changes.,Blank/NA/NOT_VERIFIABLE never means zero.,0 -> 0 -> 0 | 1 -> 1 -> 0
+Policy_dictionary_51.csv,Reason_for_Classification,"Frozen adjudication rationale, not current reclassification.",Blank/NA/NOT_VERIFIABLE never means zero.,explicit code constants; matches first snapshot | Class-level snapshot change supports exclusion rule; Wegovy-specific change is NOT_VERIFIABLE
+Policy_dictionary_51.csv,Evidence_File,"Frozen provenance, definition, or disposition: Evidence File. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,raw/policy/AuavI_v24_dataset.csv;raw/policy/M3fdl_v12_dataset.csv;raw/policy/GL0OB_v8_dataset.csv
+Policy_dictionary_51.csv,Evidence_Location,"Frozen provenance, definition, or disposition: Evidence Location. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,2024-07-01:CSV row 3;2025-10-01:CSV row 3;2026-01-01:CSV row 3 | 2024-07-01:CSV row 2;2025-10-01:CSV row 2;2026-01-01:CSV row 2
+Policy_dictionary_51.csv,Verification_Status,"Frozen provenance, definition, or disposition: Verification Status. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,SOURCE_VERIFIED
+Policy_dictionary_51.csv,Confidence,"Frozen provenance, definition, or disposition: Confidence. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,MEDIUM_CONFIDENCE
+Policy_dictionary_51.csv,Original_Survey_Date,Survey round/date information; individual response dates may be unknown.,Blank/NA/NOT_VERIFIABLE never means zero.,2024/2025 survey rounds; individual response/fieldwork dates UNKNOWN
+Policy_dictionary_51.csv,FDA_Event_State,Verified policy status at the FDA event or UNKNOWN.,Blank/NA/NOT_VERIFIABLE never means zero.,UNKNOWN | INFERRED obesity weight-loss exclusion before Aug 2024 from July historical account; not exact March 8 policy document
+Policy_dictionary_51.csv,July_2024_Status,Response to first policy snapshot.,Blank/NA/NOT_VERIFIABLE never means zero.,Not covered | Coverage in place and covers GLP-1s for obesity treatment
+Policy_dictionary_51.csv,October_2025_Status,Response to second policy snapshot.,Blank/NA/NOT_VERIFIABLE never means zero.,Not covered | Coverage in place and covers GLP-1s for obesity treatment
+Policy_dictionary_51.csv,2025Q4_Status,Historical last-quarter policy status if verified; otherwise UNKNOWN.,Blank/NA/NOT_VERIFIABLE never means zero.,UNKNOWN | MIXED: withdrawn Oct 1-Dec 11; reinstated Dec 12; MCO systems timing may differ
+Policy_dictionary_51.csv,January_2026_Status,"Poststudy audit snapshot, not used to replace primary classification.",Blank/NA/NOT_VERIFIABLE never means zero.,Not covered | Coverage in place and covers GLP-1s for obesity treatment
+Policy_dictionary_51.csv,Snapshot_Conflict,Flag for conflict between snapshot evidence.,Blank/NA/NOT_VERIFIABLE never means zero.,False
+Policy_dictionary_51.csv,First_Two_Snapshot_Change,Whether first two snapshot labels differ; NC may have an intervening change with unchanged endpoints.,Blank/NA/NOT_VERIFIABLE never means zero.,False | True
+Policy_dictionary_51.csv,Excluded_By_Code,Historical 46-domain exclusion flag.,Blank/NA/NOT_VERIFIABLE never means zero.,False | True
+Policy_dictionary_51.csv,Timing_Uncertainty,Whether timing is unresolved.,Blank/NA/NOT_VERIFIABLE never means zero.,YES
+Policy_dictionary_51.csv,Final_Historical_Adjudication,Frozen status for historical stability; often UNKNOWN.,Blank/NA/NOT_VERIFIABLE never means zero.,UNKNOWN for full 2023Q2-2025Q4 stability; first snapshot classification verified | POLICY_CHANGER_VERIFIED; FDA-day exact criteria UNKNOWN
+Policy_dictionary_51.csv,Snapshot_Date_Verification,"Frozen provenance, definition, or disposition: Snapshot Date Verification. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,"2024-07-01 and 2025-10-01 supported by KFF chart titles; 2026-01-01 code-assigned, public source states January 2026"
+Policy_dictionary_51.csv,Evidence_URL,"Frozen provenance, definition, or disposition: Evidence URL. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,https://www.kff.org/medicaid/50-state-medicaid-budget-survey-fy-2024-2025/; https://www.kff.org/medicaid/50-state-medicaid-budget-survey-fy-2025-2026/; https://www.kff.org/medicaid/medicaid-coverage-of-and-spending-on-glp-1s/ | https://www.kff.org/medicaid/50-state-medicaid-budget-survey-fy-2024-202
+Policy_dictionary_51.csv,Snapshot_Confidence,"Frozen provenance, definition, or disposition: Snapshot Confidence. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,HIGH_CONFIDENCE
+Policy_dictionary_51.csv,Historical_Timing_Confidence,"Frozen provenance, definition, or disposition: Historical Timing Confidence. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,UNKNOWN
+Policy_dictionary_51.csv,Historical_Verification_Status,"Frozen provenance, definition, or disposition: Historical Verification Status. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,NOT_VERIFIABLE
+Policy_dictionary_51.csv,Policy_Announcement_Date,Announcement date if supported; not substituted for effective date.,Blank/NA/NOT_VERIFIABLE never means zero.,UNKNOWN | 2024-07-17 addition; 2025-12-19 reinstatement bulletin (retroactive effective date); withdrawal announcement UNKNOWN
+Table_2_estimates.csv,Model_Domain,"Frozen provenance, definition, or disposition: Model Domain. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,Clean F0 (prespecified primary) | Historical effective-support F0
+Table_2_estimates.csv,Domain,Requested jurisdiction domain associated with the estimate.,Blank/NA/NOT_VERIFIABLE never means zero.,Time-varying M1 double-product double-channel paired support;29 states | 46 jurisdictions; finite effective support after 11 AK-Wegovy separated rows
+Table_2_estimates.csv,Window,"Frozen provenance, definition, or disposition: Window. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,2023Q2-2025Q4;10 analytic quarters;2024Q1 excluded | 2023Q2-2025Q4;11 quarters;Q1 included
+Table_2_estimates.csv,n,Effective product observations for Table 2.,Blank/NA/NOT_VERIFIABLE never means zero.,348 | 1001
+Table_2_estimates.csv,G,Effective state clusters unless historical record explicitly reports requested clusters.,Blank/NA/NOT_VERIFIABLE never means zero.,29 | 46
+Table_2_estimates.csv,rank,Design rank for Table 2.,Blank/NA/NOT_VERIFIABLE never means zero.,70 | 104
+Table_2_estimates.csv,IRR,Saved exponentiated count-model coefficient; blank for OLS transformed-rate ratio.,Blank/NA/NOT_VERIFIABLE never means zero.,0.9997554671818756 | 4.0901125792291895
+Table_2_estimates.csv,CI_low,"Saved lower 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,0.5099157409657245 | 1.309097232438197
+Table_2_estimates.csv,CI_high,"Saved upper 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,1.9601493224490112 | 12.779051468630032
+Table_2_estimates.csv,P,Saved two-sided P value; no new testing.,Blank/NA/NOT_VERIFIABLE never means zero.,0.9994115852180573 | 0.016523674457160895
+Table_2_estimates.csv,Status,Saved display or inference status.,Blank/NA/NOT_VERIFIABLE never means zero.,CORRECTED_DATA_RESULT | VALID_EFFECTIVE_SAMPLE_RESULT
+Table_2_estimates.csv,Claim_Class,Evidence/interpretation class assigned by the frozen claim audit.,Blank/NA/NOT_VERIFIABLE never means zero.,PRIMARY_CLAIM | SENSITIVITY
+Table_2_estimates.csv,Key_limitation,"Frozen provenance, definition, or disposition: Key limitation. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,"SINGLE_STATE_NONCOVERAGE_WEGOVY_CLEAN_PRE_SUPPORT; ALL_PRE_NCW_RX_IMPUTED_SUPPRESSION;NM sole noncoverage clean pre state; removal destroys target rank.; All pre NCW support NM two quarters, 0 numeric NDC rows, 12 suppressed rows assigned66; r70; report support varies. | Associational or descriptive"
+Table_2_estimates.csv,Result_ID,Stable frozen result identity; not an independent study.,Blank/NA/NOT_VERIFIABLE never means zero.,C_PRIMARY_BINARY_CLEAN | A_R3C_EXPOSURE_START
+Table_2_estimates.csv,Analysis_ID,Frozen protocol analysis identity.,Blank/NA/NOT_VERIFIABLE never means zero.,04C-01 | 04A-02;04A-03
+Table_2_estimates.csv,Stage_Version,"Frozen provenance, definition, or disposition: Stage Version. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,Stage04C_A | Stage04A_R3C
+Table_2_estimates.csv,Target,Coefficient or diagnostic target.,Blank/NA/NOT_VERIFIABLE never means zero.,Post×DDD | DDD
+Table_2_estimates.csv,Missing_Rule,M0 historical absent-as-zero; M1 source-required unknown-as-missing.,Blank/NA/NOT_VERIFIABLE never means zero.,M1 paired unknown source NA | M0 unknown source=0 historical assumption
+Table_2_estimates.csv,Suppression_Scenario,Operational per-row assignment; not measured count or universal bound.,Blank/NA/NOT_VERIFIABLE never means zero.,MID5.5
+Table_2_estimates.csv,Population_Version,"Frozen provenance, definition, or disposition: Population Version. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,R1 | R3_LEGACY
+Table_2_estimates.csv,Inference,Saved reference distribution and covariance definition.,Blank/NA/NOT_VERIFIABLE never means zero.,t
+Table_2_estimates.csv,df,Reference degrees of freedom; usually G-1 for t.,Blank/NA/NOT_VERIFIABLE never means zero.,28 | 45
+Table_2_estimates.csv,Source_CSV,"Frozen provenance, definition, or disposition: Source CSV. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04C_A\04C_A_Primary_PPML_Results.csv | PROJECT_ROOT/03_audit_outputs\Stage04A_R3C\04A_R3C_Independent_PPML_Results.csv
+Table_2_estimates.csv,Source_SHA256,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,704d4e5776cfe7f037fe4a6cbbdd860e968e55fcb9f608c0525dfac6cfea5b82 | 1cea41b54cdc1699efe0f9f6d228cb3241b791d4795886a4d3f423af7ae41561
+Table_2_estimates.csv,Source_Record,One-based source CSV data-record number.,Blank/NA/NOT_VERIFIABLE never means zero.,1 | 3
+Table_S1_rates_all_66_scenarios.csv,Variant_ID,"Model, data-rule or diagnostic variant identity.",Blank/NA/NOT_VERIFIABLE never means zero.,R11_SOURCE_PRESENT_SUPPORT
+Table_S1_rates_all_66_scenarios.csv,Family,Frozen family provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,F2-R11
+Table_S1_rates_all_66_scenarios.csv,Suppression_Scenario,Operational per-row assignment; not measured count or universal bound.,Blank/NA/NOT_VERIFIABLE never means zero.,0.0 | 5.5
+Table_S1_rates_all_66_scenarios.csv,coverage_group,Historical fixed coverage-environment group.,Blank/NA/NOT_VERIFIABLE never means zero.,COVERAGE | NONCOVERAGE
+Table_S1_rates_all_66_scenarios.csv,quarter,"Calendar quarter, YYYYQq.",Blank/NA/NOT_VERIFIABLE never means zero.,2023Q2 | 2023Q3
+Table_S1_rates_all_66_scenarios.csv,product,Brand-defined product; Wegovy and Ozempic remain distinct.,Blank/NA/NOT_VERIFIABLE never means zero.,WEGOVY_ONLY
+Table_S1_rates_all_66_scenarios.csv,requested_state_n,Number of jurisdictions meeting the requested support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,12 | 34
+Table_S1_rates_all_66_scenarios.csv,analytic_quarter_requested,Whether this quarter was requested for the stated series.,Blank/NA/NOT_VERIFIABLE never means zero.,True
+Table_S1_rates_all_66_scenarios.csv,included_state_n,Number of actually included jurisdictions for this group/quarter.,Blank/NA/NOT_VERIFIABLE never means zero.,8 | 0
+Table_S1_rates_all_66_scenarios.csv,included_state_list,Semicolon-separated included jurisdiction abbreviations.,Blank/NA/NOT_VERIFIABLE never means zero.,CA;DE;MI;MN;NH;PA;RI;VA | CA;DE;MI;MN;MS;PA;RI;VA
+Table_S1_rates_all_66_scenarios.csv,excluded_state_list,Jurisdiction abbreviations meeting the excluded support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,KS;MA;MS;WI | AK;AL;AR;AZ;CO;CT;DC;FL;GA;HI;IA;ID;IL;IN;KY;LA;MD;ME;MT;ND;NE;NJ;NM;NV;NY;OH;OK;OR;SD;TX;VT;WA;WV;WY
+Table_S1_rates_all_66_scenarios.csv,requested_state_list,Jurisdiction abbreviations meeting the requested support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,CA;DE;KS;MA;MI;MN;MS;NH;PA;RI;VA;WI | AK;AL;AR;AZ;CO;CT;DC;FL;GA;HI;IA;ID;IL;IN;KY;LA;MD;ME;MT;ND;NE;NJ;NM;NV;NY;OH;OK;OR;SD;TX;VT;WA;WV;WY
+Table_S1_rates_all_66_scenarios.csv,source_present_state_n,Number of jurisdictions meeting the source present support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,8 | 0
+Table_S1_rates_all_66_scenarios.csv,missing_source_state_n,Number of jurisdictions meeting the missing source support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,4 | 34
+Table_S1_rates_all_66_scenarios.csv,missing_source_state_list,Jurisdiction abbreviations meeting the missing source support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,KS;MA;MS;WI | AK;AL;AR;AZ;CO;CT;DC;FL;GA;HI;IA;ID;IL;IN;KY;LA;MD;ME;MT;ND;NE;NJ;NM;NV;NY;OH;OK;OR;SD;TX;VT;WA;WV;WY
+Table_S1_rates_all_66_scenarios.csv,invalid_population_state_n,Number of jurisdictions meeting the invalid population support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,0
+Table_S1_rates_all_66_scenarios.csv,invalid_population_state_list,Jurisdiction abbreviations meeting the invalid population support condition.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S1_rates_all_66_scenarios.csv,fully_observed_source_state_n,Source-present jurisdictions whose returned quantities are all numeric.,Blank/NA/NOT_VERIFIABLE never means zero.,3 | 0
+Table_S1_rates_all_66_scenarios.csv,numerator_observed,Sum of numeric returned prescription quantities.,Blank/NA/NOT_VERIFIABLE never means zero.,115417.0 | 0
+Table_S1_rates_all_66_scenarios.csv,numerator_observed_is_complete,Whether the returned numeric portion is complete for the defined source set; not all CMS reporting.,Blank/NA/NOT_VERIFIABLE never means zero.,True | False
+Table_S1_rates_all_66_scenarios.csv,suppressed_NDC_rows,Count of source rows carrying suppressed prescription quantities.,Blank/NA/NOT_VERIFIABLE never means zero.,13 | 0
+Table_S1_rates_all_66_scenarios.csv,source_NDC_count,Count of distinct source NDCs within the aggregation.,Blank/NA/NOT_VERIFIABLE never means zero.,69 | 0
+Table_S1_rates_all_66_scenarios.csv,numerator_assigned,Contribution assigned to suppressed returned quantities.,Blank/NA/NOT_VERIFIABLE never means zero.,0.0 | 71.5
+Table_S1_rates_all_66_scenarios.csv,numerator_total_scenario,Saved numeric plus scenario-assigned prescription total.,Blank/NA/NOT_VERIFIABLE never means zero.,115417.0 | 115488.5
+Table_S1_rates_all_66_scenarios.csv,denominator_unique,Sum of unique R1 state-quarter total Medicaid denominators.,Blank/NA/NOT_VERIFIABLE never means zero.,23625800.666666668 | 0
+Table_S1_rates_all_66_scenarios.csv,rate_per_100000,Saved numerator/unique denominator ×100000; blank when no support.,Blank/NA/NOT_VERIFIABLE never means zero.,488.5210098417546 | 488.82364508789414
+Table_S1_rates_all_66_scenarios.csv,actual_numeric_identifiability,Whether the actual quantity is known numerically; assignments do not make it known.,Blank/NA/NOT_VERIFIABLE never means zero.,False
+Table_S1_rates_all_66_scenarios.csv,scenario_identifiability,Whether the stipulated operational scenario quantity is calculable.,Blank/NA/NOT_VERIFIABLE never means zero.,SCENARIO_ON_SOURCE_PRESENT_SUPPORT | NOT_IDENTIFIABLE
+Table_S1_rates_all_66_scenarios.csv,missingness_reason,Reason required source support is unavailable.,Blank/NA/NOT_VERIFIABLE never means zero.,NONE | EMPTY_SUPPORT
+Table_S1_rates_all_66_scenarios.csv,population_version,"R1 corrected quarterly mean, R2 exclusion, or historical R3 denominator version.",Blank/NA/NOT_VERIFIABLE never means zero.,R1
+Table_S1_rates_all_66_scenarios.csv,rule,Frozen missingness/enrollment/support rule.,Blank/NA/NOT_VERIFIABLE never means zero.,W_ONLY_SOURCE
+Table_S1_rates_all_66_scenarios.csv,clock,FFSU payment quarter versus MCOU dispensing quarter.,Blank/NA/NOT_VERIFIABLE never means zero.,FFSU_PAID_PLUS_MCOU_DISPENSE_MIXED
+Table_S1_rates_all_66_scenarios.csv,Q1_display_gap,Whether 2024Q1 is deliberately left as an excluded calendar gap.,Blank/NA/NOT_VERIFIABLE never means zero.,False
+Table_S1_rates_all_66_scenarios.csv,source_key_hash,SHA256 identity of the named frozen key/version sequence.,Blank/NA/NOT_VERIFIABLE never means zero.,acf37c22de13accc1e5fe307036c188576c6438db1fa346cc11bf152bc4f39dc | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Table_S1_rates_all_66_scenarios.csv,population_key_hash,SHA256 identity of the named frozen key/version sequence.,Blank/NA/NOT_VERIFIABLE never means zero.,7ebf2a9bc1bf9210b9c3149ab1b29e5dab5abe76ed6630a10e05bd936a750508 | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Table_S1_rates_all_66_scenarios.csv,population_source_key_hash,SHA256 identity of the named frozen key/version sequence.,Blank/NA/NOT_VERIFIABLE never means zero.,f78ec972f8053f80ad869645b9dc28dcab85a91a20e991d7a48a3797f30e24e4 | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Table_S1_rates_all_66_scenarios.csv,result_identity,Stable identity of the frozen rate/support result.,Blank/NA/NOT_VERIFIABLE never means zero.,CORRECTED_SOURCE_SUPPORT_SCENARIO
+Table_S1_rates_all_66_scenarios.csv,data_version_hash,SHA256 identity of the named frozen key/version sequence.,Blank/NA/NOT_VERIFIABLE never means zero.,53f151d78e013c126db26dcbbcb9bf4842bdfa85380c78f482ff8a0b4e1dd399 | 393c6ae78f6d8dc124e59c18f82904b5ae9c1830300688f24ff302a3df3beb8a
+Table_S1_rates_all_66_scenarios.csv,Source_CSV,"Frozen provenance, definition, or disposition: Source CSV. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04E_A\04E_A_Group_Quarter_Numerators_Denominators.csv
+Table_S1_rates_all_66_scenarios.csv,Source_SHA256,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,899fa5076a1ce263a0ba155b3ada6e39d8febc222473dbdea9c3ebdfb4214821
+Table_S1_rates_all_66_scenarios.csv,Source_Record,One-based source CSV data-record number.,Blank/NA/NOT_VERIFIABLE never means zero.,155 | 156
+Table_S1_rates_all_66_scenarios.csv,State_Source_CSV,"Frozen provenance, definition, or disposition: State Source CSV. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04E_A\04E_A_State_Quarter_Wegovy_Status.csv
+Table_S1_rates_all_66_scenarios.csv,State_Source_SHA256,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,dbcaebcf70257973472785f3ce36ddb60e7a6807add06c63fe59797512348f0a
+Table_S1_rates_all_66_scenarios.csv,Display_Numerator_Definition,"Definition of displayed prescription numerator, including assigned component.",Blank/NA/NOT_VERIFIABLE never means zero.,REPORTED_NUMERIC_PLUS_SEPARATELY_ASSIGNED_SUPPRESSED_SOURCE_ROWS
+Table_S1_rates_all_66_scenarios.csv,Population_Definition,"Frozen provenance, definition, or disposition: Population Definition. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,UNIQUE_STATE_QUARTER_TOTAL_MEDICAID_R1_AT_LEAST_TWO_VALID_MONTHS
+Table_S1_rates_all_66_scenarios.csv,Policy_Definition,Coverage environment definition; not patient eligibility or implementation date.,Blank/NA/NOT_VERIFIABLE never means zero.,P1_JULY2024_FFS_OBESITY_ENVIRONMENT; HISTORICAL_46_SELECTION; NOT_DATED_CVD_MCO_EXPOSURE
+Table_S1_rates_all_66_scenarios.csv,True_Full46_Rate,"Verification status of the true full requested-domain rate, distinct from conditional rate.",Blank/NA/NOT_VERIFIABLE never means zero.,NOT_VERIFIABLE
+Table_S1_rates_all_66_scenarios.csv,Scenario_Interpretation,"Frozen provenance, definition, or disposition: Scenario Interpretation. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,0_5.5_10_ASSIGNMENTS_NOT_STRICT_BOUNDS
+Table_S1_rates_all_66_scenarios.csv,Display_QA,"Frozen provenance, definition, or disposition: Display QA. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PASS_SAME_DEFINITION_COMPONENTS_AND_UNIQUE_POPULATION
+Table_S2_native_common.csv,Result_ID,Stable frozen result identity; not an independent study.,Blank/NA/NOT_VERIFIABLE never means zero.,C_R2_R2_M01_NATIVE_Early×DDD | C_R2_R2_M01_COMMON_Early×DDD
+Table_S2_native_common.csv,Analysis_ID,Frozen protocol analysis identity.,Blank/NA/NOT_VERIFIABLE never means zero.,04C-03 | 04C-05
+Table_S2_native_common.csv,Stage,Frozen stage provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,Stage04C_R2_R2
+Table_S2_native_common.csv,Variant_ID,"Model, data-rule or diagnostic variant identity.",Blank/NA/NOT_VERIFIABLE never means zero.,M01 | M02
+Table_S2_native_common.csv,Source_File,Sanitized source locator; PROJECT_ROOT is the audit root; EXTERNAL_SOURCE is the historical DATA source.,Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04C_R2_R2\04C_R2_Model_Results.csv
+Table_S2_native_common.csv,Source_SHA,SHA256 of underlying frozen source bytes.,Blank/NA/NOT_VERIFIABLE never means zero.,af157277ef28fbc593e0891a19be7472f09fdf009c47369017d8e490ca9de0b7
+Table_S2_native_common.csv,Source_Record,One-based source CSV data-record number.,Blank/NA/NOT_VERIFIABLE never means zero.,1 | 2
+Table_S2_native_common.csv,Analysis_Population,Requested/effective geographic population definition.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Quarter_Window,Frozen calendar window; C10 excludes 2024Q1.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Exposure_Version,"Policy snapshot definition, not implementation timing.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Outcome,Outcome/scale actually represented.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Comparator,Comparison product or product pair.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Channel,"FFSU payment quarter, MCOU dispensing quarter, or their sum.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Population_Denominator,Enrollment definition; total Medicaid is not channel-specific or adult eligibility.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Missing_Rule,M0 historical absent-as-zero; M1 source-required unknown-as-missing.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Suppression_Scenario,Operational per-row assignment; not measured count or universal bound.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Requested_n,Requested product observations before separation/support exclusions.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Effective_n,Effective product observations; blank/NOT_VERIFIABLE is not zero.,Blank/NA/NOT_VERIFIABLE never means zero.,348 | 152
+Table_S2_native_common.csv,G,Effective state clusters unless historical record explicitly reports requested clusters.,Blank/NA/NOT_VERIFIABLE never means zero.,29 | 21
+Table_S2_native_common.csv,Model_Rank,"Rank of model design, not number of requested nominal columns.",Blank/NA/NOT_VERIFIABLE never means zero.,73 | 50
+Table_S2_native_common.csv,FE_Specification,Fixed-effect structure.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Result_Status,Frozen numerical or structural disposition.,Blank/NA/NOT_VERIFIABLE never means zero.,NUMERIC_PASS
+Table_S2_native_common.csv,Interpretation_Limitations,Limitations that remain attached to this row.,Blank/NA/NOT_VERIFIABLE never means zero.,conditional association/descriptive only; source and science gates remain unresolved
+Table_S2_native_common.csv,Target,Coefficient or diagnostic target.,Blank/NA/NOT_VERIFIABLE never means zero.,Early×DDD | Late×DDD
+Table_S2_native_common.csv,Support,Native/shared support definition; COMMON alone does not imply reuse.,Blank/NA/NOT_VERIFIABLE never means zero.,NATIVE | COMMON
+Table_S2_native_common.csv,Sample_Key_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,8a3dc6350298d2b3ec661674231eb368541eb15d8f2f832a55a0f06b89085fa3 | 4292a019204345de7ba978f04a8e1e47a17416897e999f9a815d0d61ee8ad072
+Table_S2_native_common.csv,Model_Input_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,0c52dbff6d598100be6b126d8f3c1587b6d1286eef57cbbe0ad8b2988dad222a | a6054bdf152922ad1549cc7719397f1ef8028439c906ba7a0198e7a62550af44
+Table_S2_native_common.csv,Inference_Reference,t or legacy normal reference.,Blank/NA/NOT_VERIFIABLE never means zero.,t
+Table_S2_native_common.csv,df,Reference degrees of freedom; usually G-1 for t.,Blank/NA/NOT_VERIFIABLE never means zero.,28 | 20
+Table_S2_native_common.csv,beta,Coefficient on model linear predictor scale.,Blank/NA/NOT_VERIFIABLE never means zero.,-1.6517741452981833 | -0.03836692872431226
+Table_S2_native_common.csv,SE,Saved standard error of beta.,Blank/NA/NOT_VERIFIABLE never means zero.,0.5009242678336351 | 0.3471972283666791
+Table_S2_native_common.csv,IRR,Saved exponentiated count-model coefficient; blank for OLS transformed-rate ratio.,Blank/NA/NOT_VERIFIABLE never means zero.,0.19170948624702747 | 0.9623597586602347
+Table_S2_native_common.csv,CI_low,"Saved lower 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,0.06870928108498432 | 0.4725705595000138
+Table_S2_native_common.csv,CI_high,"Saved upper 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,0.5348990199976213 | 1.959784177136321
+Table_S2_native_common.csv,P,Saved two-sided P value; no new testing.,Blank/NA/NOT_VERIFIABLE never means zero.,0.0026576936894604276 | 0.9127973903352982
+Table_S2_native_common.csv,CR1,Frozen finite-sample cluster correction.,Blank/NA/NOT_VERIFIABLE never means zero.,1.306883116883117 | 1.5544117647058824
+Table_S2_native_common.csv,Frozen_Object_Source,"Frozen provenance, definition, or disposition: Frozen Object Source. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Frozen_Object_SHA,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Population_Version,"Frozen provenance, definition, or disposition: Population Version. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Observation_Unit,Unit represented by records.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Inference_Unit,Unit of uncertainty/cluster calculation.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Source_Execution_Status,"Frozen provenance, definition, or disposition: Source Execution Status. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,Exact_Delta_Beta,Saved deleted-state minus full-model log coefficient.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,reference,Frozen reference provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S2_native_common.csv,COMMON_Reuse,Explicit accepted-object reuse flag; only REUSED_* denotes reuse.,Blank/NA/NOT_VERIFIABLE never means zero.,NATIVE | REUSED_ACCEPTED_NATIVE_OBJECT_NOT_NEW_FIT
+Table_S3_channels.csv,Result_ID,Stable frozen result identity; not an independent study.,Blank/NA/NOT_VERIFIABLE never means zero.,D_CH_FFSU_NATIVE_F0__POST | D_CH_FFSU_NATIVE_EL1__EARLY
+Table_S3_channels.csv,Analysis_ID,Frozen protocol analysis identity.,Blank/NA/NOT_VERIFIABLE never means zero.,04D-01 | 04D-02
+Table_S3_channels.csv,Stage,Frozen stage provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,Stage04D_B
+Table_S3_channels.csv,Variant_ID,"Model, data-rule or diagnostic variant identity.",Blank/NA/NOT_VERIFIABLE never means zero.,CH_FFSU_NATIVE_F0 | CH_FFSU_NATIVE_EL1
+Table_S3_channels.csv,Source_File,Sanitized source locator; PROJECT_ROOT is the audit root; EXTERNAL_SOURCE is the historical DATA source.,Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04D_B\04D_B_Model_Results.csv
+Table_S3_channels.csv,Source_SHA,SHA256 of underlying frozen source bytes.,Blank/NA/NOT_VERIFIABLE never means zero.,891cb0ec93fa1829bedbfefca22ca276c1f38969e365f34d9df96c2551c095ff
+Table_S3_channels.csv,Source_Record,One-based source CSV data-record number.,Blank/NA/NOT_VERIFIABLE never means zero.,1 | 2
+Table_S3_channels.csv,Analysis_Population,Requested/effective geographic population definition.,Blank/NA/NOT_VERIFIABLE never means zero.,Channel-specific NATIVE reportable product pairs | Channel-specific CH_BOTH_SOURCE_AND_STABLE_COMMON reportable product pairs
+Table_S3_channels.csv,Quarter_Window,Frozen calendar window; C10 excludes 2024Q1.,Blank/NA/NOT_VERIFIABLE never means zero.,2023Q2-2025Q4;10 analytic quarters;Q1 excluded
+Table_S3_channels.csv,Exposure_Version,"Policy snapshot definition, not implementation timing.",Blank/NA/NOT_VERIFIABLE never means zero.,P1_JULY2024_FFS_OBESITY_ENVIRONMENT
+Table_S3_channels.csv,Outcome,Outcome/scale actually represented.,Blank/NA/NOT_VERIFIABLE never means zero.,Prescription count
+Table_S3_channels.csv,Comparator,Comparison product or product pair.,Blank/NA/NOT_VERIFIABLE never means zero.,Ozempic
+Table_S3_channels.csv,Channel,"FFSU payment quarter, MCOU dispensing quarter, or their sum.",Blank/NA/NOT_VERIFIABLE never means zero.,FFSU | MCOU
+Table_S3_channels.csv,Population_Denominator,Enrollment definition; total Medicaid is not channel-specific or adult eligibility.,Blank/NA/NOT_VERIFIABLE never means zero.,Total Medicaid quarterly enrollment
+Table_S3_channels.csv,Missing_Rule,M0 historical absent-as-zero; M1 source-required unknown-as-missing.,Blank/NA/NOT_VERIFIABLE never means zero.,CHANNEL_SOURCE_PRESENT_PAIR
+Table_S3_channels.csv,Suppression_Scenario,Operational per-row assignment; not measured count or universal bound.,Blank/NA/NOT_VERIFIABLE never means zero.,MID5.5
+Table_S3_channels.csv,Requested_n,Requested product observations before separation/support exclusions.,Blank/NA/NOT_VERIFIABLE never means zero.,504 | 620
+Table_S3_channels.csv,Effective_n,Effective product observations; blank/NOT_VERIFIABLE is not zero.,Blank/NA/NOT_VERIFIABLE never means zero.,504 | 620
+Table_S3_channels.csv,G,Effective state clusters unless historical record explicitly reports requested clusters.,Blank/NA/NOT_VERIFIABLE never means zero.,41 | 34
+Table_S3_channels.csv,Model_Rank,"Rank of model design, not number of requested nominal columns.",Blank/NA/NOT_VERIFIABLE never means zero.,94 | 97
+Table_S3_channels.csv,FE_Specification,Fixed-effect structure.,Blank/NA/NOT_VERIFIABLE never means zero.,F0 | EL1 complete early/late lower terms
+Table_S3_channels.csv,Result_Status,Frozen numerical or structural disposition.,Blank/NA/NOT_VERIFIABLE never means zero.,SENSITIVITY_RESULT
+Table_S3_channels.csv,Interpretation_Limitations,Limitations that remain attached to this row.,Blank/NA/NOT_VERIFIABLE never means zero.,Associational or descriptive only; reporting selection; no patient/CVD eligibility/equity outcome.
+Table_S3_channels.csv,Target,Coefficient or diagnostic target.,Blank/NA/NOT_VERIFIABLE never means zero.,Post×DDD | Early×DDD
+Table_S3_channels.csv,Support,Native/shared support definition; COMMON alone does not imply reuse.,Blank/NA/NOT_VERIFIABLE never means zero.,NATIVE | CH_BOTH_SOURCE_AND_STABLE_COMMON
+Table_S3_channels.csv,Sample_Key_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,864e7d9145c1e590ed53a70527c43b1a9514d4cf60ce77962cf689ecd3cb96d0 | 65aa9fb3d40a83c17eb5fad8c0b8533de94e2e6867983f2de1f2d5af089bc8d2
+Table_S3_channels.csv,Model_Input_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,e14f2d90bbe6d8ce749e8148be68eedde4789fac0de4dcf00e1db400ae8ec5bd | 57231486f5195ced9d6b36434117d24ede3c5933983ad96a123254ccac29be10
+Table_S3_channels.csv,Inference_Reference,t or legacy normal reference.,Blank/NA/NOT_VERIFIABLE never means zero.,t
+Table_S3_channels.csv,df,Reference degrees of freedom; usually G-1 for t.,Blank/NA/NOT_VERIFIABLE never means zero.,40 | 33
+Table_S3_channels.csv,beta,Coefficient on model linear predictor scale.,Blank/NA/NOT_VERIFIABLE never means zero.,1.917272970826976 | 0.6666299715588356
+Table_S3_channels.csv,SE,Saved standard error of beta.,Blank/NA/NOT_VERIFIABLE never means zero.,0.47740900738577224 | 0.3368214506235969
+Table_S3_channels.csv,IRR,Saved exponentiated count-model coefficient; blank for OLS transformed-rate ratio.,Blank/NA/NOT_VERIFIABLE never means zero.,6.80238285618818 | 1.9476625700553392
+Table_S3_channels.csv,CI_low,"Saved lower 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,2.591905643583721 | 0.9859875283184223
+Table_S3_channels.csv,CI_high,"Saved upper 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,17.852660893235253 | 3.8472996643924113
+Table_S3_channels.csv,P,Saved two-sided P value; no new testing.,Blank/NA/NOT_VERIFIABLE never means zero.,0.0002533956526922344 | 0.054707981706691076
+Table_S3_channels.csv,CR1,Frozen finite-sample cluster correction.,Blank/NA/NOT_VERIFIABLE never means zero.,1.2574999999999998 | 1.2667690417690416
+Table_S3_channels.csv,Frozen_Object_Source,"Frozen provenance, definition, or disposition: Frozen Object Source. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04D_B\_working\CH_FFSU_NATIVE_F0_input.npz | PROJECT_ROOT/03_audit_outputs\Stage04D_B\_working\CH_FFSU_NATIVE_EL1_input.npz
+Table_S3_channels.csv,Frozen_Object_SHA,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,9f584024cb7d38898fd443a09808762d28b36ea078fb14ccf924745410e14254 | d970e07b71657d5ee39505024ffbf0781c7eb6853a05fbe3dd452e454dacad48
+Table_S3_channels.csv,Population_Version,"Frozen provenance, definition, or disposition: Population Version. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,R1
+Table_S3_channels.csv,Observation_Unit,Unit represented by records.,Blank/NA/NOT_VERIFIABLE never means zero.,STATE_QUARTER_PRODUCT
+Table_S3_channels.csv,Inference_Unit,Unit of uncertainty/cluster calculation.,Blank/NA/NOT_VERIFIABLE never means zero.,STATE_CLUSTER
+Table_S3_channels.csv,Source_Execution_Status,"Frozen provenance, definition, or disposition: Source Execution Status. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PASS
+Table_S3_channels.csv,Exact_Delta_Beta,Saved deleted-state minus full-model log coefficient.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S3_channels.csv,reference,Frozen reference provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Result_ID,Stable frozen result identity; not an independent study.,Blank/NA/NOT_VERIFIABLE never means zero.,D04_R1_LOO_AK | D04_R1_LOO_AL
+Table_S4_all_46_LOO.csv,Analysis_ID,Frozen protocol analysis identity.,Blank/NA/NOT_VERIFIABLE never means zero.,04D-04
+Table_S4_all_46_LOO.csv,Stage,Frozen stage provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,Stage04D_04_R1
+Table_S4_all_46_LOO.csv,Variant_ID,"Model, data-rule or diagnostic variant identity.",Blank/NA/NOT_VERIFIABLE never means zero.,LOO_AK | LOO_AL
+Table_S4_all_46_LOO.csv,Source_File,Sanitized source locator; PROJECT_ROOT is the audit root; EXTERNAL_SOURCE is the historical DATA source.,Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04D_04_R1\04D_04_LOO_Model_Results.csv
+Table_S4_all_46_LOO.csv,Source_SHA,SHA256 of underlying frozen source bytes.,Blank/NA/NOT_VERIFIABLE never means zero.,cfd4515c1c3a3f3b41b7ea468bf30b3c38cd2d103847195bc3191b070c240d49
+Table_S4_all_46_LOO.csv,Source_Record,One-based source CSV data-record number.,Blank/NA/NOT_VERIFIABLE never means zero.,1 | 2
+Table_S4_all_46_LOO.csv,Analysis_Population,Requested/effective geographic population definition.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Quarter_Window,Frozen calendar window; C10 excludes 2024Q1.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Exposure_Version,"Policy snapshot definition, not implementation timing.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Outcome,Outcome/scale actually represented.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Comparator,Comparison product or product pair.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Channel,"FFSU payment quarter, MCOU dispensing quarter, or their sum.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Population_Denominator,Enrollment definition; total Medicaid is not channel-specific or adult eligibility.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Missing_Rule,M0 historical absent-as-zero; M1 source-required unknown-as-missing.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Suppression_Scenario,Operational per-row assignment; not measured count or universal bound.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Requested_n,Requested product observations before separation/support exclusions.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Effective_n,Effective product observations; blank/NOT_VERIFIABLE is not zero.,Blank/NA/NOT_VERIFIABLE never means zero.,336 | 346
+Table_S4_all_46_LOO.csv,G,Effective state clusters unless historical record explicitly reports requested clusters.,Blank/NA/NOT_VERIFIABLE never means zero.,28
+Table_S4_all_46_LOO.csv,Model_Rank,"Rank of model design, not number of requested nominal columns.",Blank/NA/NOT_VERIFIABLE never means zero.,68 | 66
+Table_S4_all_46_LOO.csv,FE_Specification,Fixed-effect structure.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Result_Status,Frozen numerical or structural disposition.,Blank/NA/NOT_VERIFIABLE never means zero.,NO_EFFECTIVE_ROWS | NUMERIC_PASS
+Table_S4_all_46_LOO.csv,Interpretation_Limitations,Limitations that remain attached to this row.,Blank/NA/NOT_VERIFIABLE never means zero.,conditional association/descriptive only; source and science gates remain unresolved
+Table_S4_all_46_LOO.csv,Target,Coefficient or diagnostic target.,Blank/NA/NOT_VERIFIABLE never means zero.,Post×DDD
+Table_S4_all_46_LOO.csv,Support,Native/shared support definition; COMMON alone does not imply reuse.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Sample_Key_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,8a3dc6350298d2b3ec661674231eb368541eb15d8f2f832a55a0f06b89085fa3 | 7c5ec5af2e72a99bfe43509598338d52c243da7f15d20af48a2780d580e42bb2
+Table_S4_all_46_LOO.csv,Model_Input_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Inference_Reference,t or legacy normal reference.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,df,Reference degrees of freedom; usually G-1 for t.,Blank/NA/NOT_VERIFIABLE never means zero.,27
+Table_S4_all_46_LOO.csv,beta,Coefficient on model linear predictor scale.,Blank/NA/NOT_VERIFIABLE never means zero.,-0.00024474826859164847 | -0.0002445627209828159
+Table_S4_all_46_LOO.csv,SE,Saved standard error of beta.,Blank/NA/NOT_VERIFIABLE never means zero.,0.32912389726567104 | 0.32793808614022407
+Table_S4_all_46_LOO.csv,IRR,Saved exponentiated count-model coefficient; blank for OLS transformed-rate ratio.,Blank/NA/NOT_VERIFIABLE never means zero.,0.9997552816798225 | 0.9997554671820417
+Table_S4_all_46_LOO.csv,CI_low,"Saved lower 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,0.5088758486911238 | 0.5101155882175906
+Table_S4_all_46_LOO.csv,CI_high,"Saved upper 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,1.9641541759498629 | 1.9593813975628582
+Table_S4_all_46_LOO.csv,P,Saved two-sided P value; no new testing.,Blank/NA/NOT_VERIFIABLE never means zero.,0.9994121318871881 | 0.9994104534635364
+Table_S4_all_46_LOO.csv,CR1,Frozen finite-sample cluster correction.,Blank/NA/NOT_VERIFIABLE never means zero.,1.2962962962962963 | 1.286970423661071
+Table_S4_all_46_LOO.csv,Frozen_Object_Source,"Frozen provenance, definition, or disposition: Frozen Object Source. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Frozen_Object_SHA,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Population_Version,"Frozen provenance, definition, or disposition: Population Version. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Observation_Unit,Unit represented by records.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Inference_Unit,Unit of uncertainty/cluster calculation.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Source_Execution_Status,"Frozen provenance, definition, or disposition: Source Execution Status. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S4_all_46_LOO.csv,Exact_Delta_Beta,Saved deleted-state minus full-model log coefficient.,Blank/NA/NOT_VERIFIABLE never means zero.,-1.8554744275327837e-07 | 1.660792814037193e-13
+Table_S4_all_46_LOO.csv,reference,Frozen reference provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S5_population_missingness_suppression.csv,Result_ID,Stable frozen result identity; not an independent study.,Blank/NA/NOT_VERIFIABLE never means zero.,B_R3_M0_MID__NATIVE__NONE | B_R1_M0_MID__NATIVE__NONE
+Table_S5_population_missingness_suppression.csv,Analysis_ID,Frozen protocol analysis identity.,Blank/NA/NOT_VERIFIABLE never means zero.,04B-01 | 04B-02
+Table_S5_population_missingness_suppression.csv,Stage,Frozen stage provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,Stage04B_R1
+Table_S5_population_missingness_suppression.csv,Variant_ID,"Model, data-rule or diagnostic variant identity.",Blank/NA/NOT_VERIFIABLE never means zero.,R3_M0_MID | R1_M0_MID
+Table_S5_population_missingness_suppression.csv,Source_File,Sanitized source locator; PROJECT_ROOT is the audit root; EXTERNAL_SOURCE is the historical DATA source.,Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04B\04B_Model_Results.csv
+Table_S5_population_missingness_suppression.csv,Source_SHA,SHA256 of underlying frozen source bytes.,Blank/NA/NOT_VERIFIABLE never means zero.,6bdec789681d67f0d3434ced1b9382e283de129dc6192933477f046b2cf8b392
+Table_S5_population_missingness_suppression.csv,Source_Record,One-based source CSV data-record number.,Blank/NA/NOT_VERIFIABLE never means zero.,1 | 2
+Table_S5_population_missingness_suppression.csv,Analysis_Population,Requested/effective geographic population definition.,Blank/NA/NOT_VERIFIABLE never means zero.,Requested historical 46; effective support separately indexed
+Table_S5_population_missingness_suppression.csv,Quarter_Window,Frozen calendar window; C10 excludes 2024Q1.,Blank/NA/NOT_VERIFIABLE never means zero.,DATA-11;2023Q2-2025Q4;Q1 included
+Table_S5_population_missingness_suppression.csv,Exposure_Version,"Policy snapshot definition, not implementation timing.",Blank/NA/NOT_VERIFIABLE never means zero.,P1_JULY2024_FFS_OBESITY_ENVIRONMENT
+Table_S5_population_missingness_suppression.csv,Outcome,Outcome/scale actually represented.,Blank/NA/NOT_VERIFIABLE never means zero.,Prescription count
+Table_S5_population_missingness_suppression.csv,Comparator,Comparison product or product pair.,Blank/NA/NOT_VERIFIABLE never means zero.,Ozempic
+Table_S5_population_missingness_suppression.csv,Channel,"FFSU payment quarter, MCOU dispensing quarter, or their sum.",Blank/NA/NOT_VERIFIABLE never means zero.,FFSU_PAID_PLUS_MCOU_DISPENSE
+Table_S5_population_missingness_suppression.csv,Population_Denominator,Enrollment definition; total Medicaid is not channel-specific or adult eligibility.,Blank/NA/NOT_VERIFIABLE never means zero.,Total Medicaid quarterly enrollment
+Table_S5_population_missingness_suppression.csv,Missing_Rule,M0 historical absent-as-zero; M1 source-required unknown-as-missing.,Blank/NA/NOT_VERIFIABLE never means zero.,M0 | M1
+Table_S5_population_missingness_suppression.csv,Suppression_Scenario,Operational per-row assignment; not measured count or universal bound.,Blank/NA/NOT_VERIFIABLE never means zero.,MID | S0
+Table_S5_population_missingness_suppression.csv,Requested_n,Requested product observations before separation/support exclusions.,Blank/NA/NOT_VERIFIABLE never means zero.,1012 | 1010
+Table_S5_population_missingness_suppression.csv,Effective_n,Effective product observations; blank/NOT_VERIFIABLE is not zero.,Blank/NA/NOT_VERIFIABLE never means zero.,1001 | 999
+Table_S5_population_missingness_suppression.csv,G,Effective state clusters unless historical record explicitly reports requested clusters.,Blank/NA/NOT_VERIFIABLE never means zero.,46 | 29
+Table_S5_population_missingness_suppression.csv,Model_Rank,"Rank of model design, not number of requested nominal columns.",Blank/NA/NOT_VERIFIABLE never means zero.,104 | 71
+Table_S5_population_missingness_suppression.csv,FE_Specification,Fixed-effect structure.,Blank/NA/NOT_VERIFIABLE never means zero.,F0
+Table_S5_population_missingness_suppression.csv,Result_Status,Frozen numerical or structural disposition.,Blank/NA/NOT_VERIFIABLE never means zero.,VALID_EFFECTIVE_SAMPLE_RESULT | CORRECTED_DATA_RESULT
+Table_S5_population_missingness_suppression.csv,Interpretation_Limitations,Limitations that remain attached to this row.,Blank/NA/NOT_VERIFIABLE never means zero.,"ASSOCIATION_ONLY; not bounds or verified full46 quantities; M1 changes reporting support, not missing mechanism repair. | TARGET_SUPPORT_OR_RANK_FAILED; M1 changes reporting support, not missing mechanism repair."
+Table_S5_population_missingness_suppression.csv,Target,Coefficient or diagnostic target.,Blank/NA/NOT_VERIFIABLE never means zero.,DDD
+Table_S5_population_missingness_suppression.csv,Support,Native/shared support definition; COMMON alone does not imply reuse.,Blank/NA/NOT_VERIFIABLE never means zero.,NATIVE/NONE | COMMON/POP_RI
+Table_S5_population_missingness_suppression.csv,Sample_Key_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,852bff69e40a6f52e6efbcb47a5d56e09d5967cd01b6c4894cd2adcac6de57a3 | 71b9666db2910e523467a9fc57ca88275cd57c70e80ac1dca29f0fbdb1e596fa
+Table_S5_population_missingness_suppression.csv,Model_Input_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,83002f557e831d0bac952bc23c46f3838176f1704fce9fb9c0edfe0094672a80 | 84f7376fbe3cebbb7493d9604864ee9a5e8d6d0951d238704d0896cd60b99062
+Table_S5_population_missingness_suppression.csv,Inference_Reference,t or legacy normal reference.,Blank/NA/NOT_VERIFIABLE never means zero.,t
+Table_S5_population_missingness_suppression.csv,df,Reference degrees of freedom; usually G-1 for t.,Blank/NA/NOT_VERIFIABLE never means zero.,45 | 28
+Table_S5_population_missingness_suppression.csv,beta,Coefficient on model linear predictor scale.,Blank/NA/NOT_VERIFIABLE never means zero.,1.4085724951598007 | 1.4080935565009278
+Table_S5_population_missingness_suppression.csv,SE,Saved standard error of beta.,Blank/NA/NOT_VERIFIABLE never means zero.,0.5656287245940109 | 0.5654859890232953
+Table_S5_population_missingness_suppression.csv,IRR,Saved exponentiated count-model coefficient; blank for OLS transformed-rate ratio.,Blank/NA/NOT_VERIFIABLE never means zero.,4.0901125792291895 | 4.088154135220564
+Table_S5_population_missingness_suppression.csv,CI_low,"Saved lower 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,1.309097232438197 | 1.3088466239224434
+Table_S5_population_missingness_suppression.csv,CI_high,"Saved upper 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,12.779051468630032 | 12.769261063786297
+Table_S5_population_missingness_suppression.csv,P,Saved two-sided P value; no new testing.,Blank/NA/NOT_VERIFIABLE never means zero.,0.016523674457160895 | 0.016532571060794796
+Table_S5_population_missingness_suppression.csv,CR1,Frozen finite-sample cluster correction.,Blank/NA/NOT_VERIFIABLE never means zero.,1.1396011396011396 | 1.1398634388578521
+Table_S5_population_missingness_suppression.csv,Frozen_Object_Source,"Frozen provenance, definition, or disposition: Frozen Object Source. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04A_R3C\_working\effective_model.npz | PROJECT_ROOT/03_audit_outputs\Stage04B\_working\R1\R1_M0_MID__NATIVE_model.npz
+Table_S5_population_missingness_suppression.csv,Frozen_Object_SHA,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,2b3f5dab119f6a6508251ef14494cedc30b0444c468367a256a9c2161ca453cf | 49322b3b54c677a90223408831a34ce2985451e2ed41ed5cd7df4af1455d9e5a
+Table_S5_population_missingness_suppression.csv,Population_Version,"Frozen provenance, definition, or disposition: Population Version. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,R3 | R1
+Table_S5_population_missingness_suppression.csv,Observation_Unit,Unit represented by records.,Blank/NA/NOT_VERIFIABLE never means zero.,STATE_QUARTER_PRODUCT
+Table_S5_population_missingness_suppression.csv,Inference_Unit,Unit of uncertainty/cluster calculation.,Blank/NA/NOT_VERIFIABLE never means zero.,STATE_CLUSTER | NOT_APPLICABLE_UNESTIMATED
+Table_S5_population_missingness_suppression.csv,Source_Execution_Status,"Frozen provenance, definition, or disposition: Source Execution Status. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,COMPLETE_VERIFIED | FAILED
+Table_S5_population_missingness_suppression.csv,Exact_Delta_Beta,Saved deleted-state minus full-model log coefficient.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S5_population_missingness_suppression.csv,reference,Frozen reference provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S6_clean_and_dynamic.csv,Result_ID,Stable frozen result identity; not an independent study.,Blank/NA/NOT_VERIFIABLE never means zero.,A_R3C_EXPOSURE_START | A_R3C_ZERO_START
+Table_S6_clean_and_dynamic.csv,Analysis_ID,Frozen protocol analysis identity.,Blank/NA/NOT_VERIFIABLE never means zero.,04A-02;04A-03 | 04A-02
+Table_S6_clean_and_dynamic.csv,Stage,Frozen stage provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,Stage04A_R3C | Stage04C_A
+Table_S6_clean_and_dynamic.csv,Variant_ID,"Model, data-rule or diagnostic variant identity.",Blank/NA/NOT_VERIFIABLE never means zero.,exposure_start | zero_start
+Table_S6_clean_and_dynamic.csv,Source_File,Sanitized source locator; PROJECT_ROOT is the audit root; EXTERNAL_SOURCE is the historical DATA source.,Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04A_R3C\04A_R3C_Independent_PPML_Results.csv | PROJECT_ROOT/03_audit_outputs\Stage04A_R3C\04A_R3C_Model_Gates.csv
+Table_S6_clean_and_dynamic.csv,Source_SHA,SHA256 of underlying frozen source bytes.,Blank/NA/NOT_VERIFIABLE never means zero.,1cea41b54cdc1699efe0f9f6d228cb3241b791d4795886a4d3f423af7ae41561 | 43803d282be04fe222b5e14726baf0bc38af41dce27180474c5a11631412ae5b
+Table_S6_clean_and_dynamic.csv,Source_Record,One-based source CSV data-record number.,Blank/NA/NOT_VERIFIABLE never means zero.,1 | 2
+Table_S6_clean_and_dynamic.csv,Analysis_Population,Requested/effective geographic population definition.,Blank/NA/NOT_VERIFIABLE never means zero.,46 jurisdictions; finite effective support after 11 AK-Wegovy separated rows | 46 requested jurisdictions
+Table_S6_clean_and_dynamic.csv,Quarter_Window,Frozen calendar window; C10 excludes 2024Q1.,Blank/NA/NOT_VERIFIABLE never means zero.,2023Q2-2025Q4;11 quarters;Q1 included | 2023Q2-2025Q4;11 quarters
+Table_S6_clean_and_dynamic.csv,Exposure_Version,"Policy snapshot definition, not implementation timing.",Blank/NA/NOT_VERIFIABLE never means zero.,P1_JULY2024_FFS_OBESITY_ENVIRONMENT
+Table_S6_clean_and_dynamic.csv,Outcome,Outcome/scale actually represented.,Blank/NA/NOT_VERIFIABLE never means zero.,Prescription count | WEGOVY_COUNT
+Table_S6_clean_and_dynamic.csv,Comparator,Comparison product or product pair.,Blank/NA/NOT_VERIFIABLE never means zero.,Ozempic | OZEMPIC
+Table_S6_clean_and_dynamic.csv,Channel,"FFSU payment quarter, MCOU dispensing quarter, or their sum.",Blank/NA/NOT_VERIFIABLE never means zero.,FFSU_PAID_PLUS_MCOU_DISPENSE
+Table_S6_clean_and_dynamic.csv,Population_Denominator,Enrollment definition; total Medicaid is not channel-specific or adult eligibility.,Blank/NA/NOT_VERIFIABLE never means zero.,Total Medicaid quarterly enrollment | R1_QUARTER_MEAN_TOTAL_MEDICAID
+Table_S6_clean_and_dynamic.csv,Missing_Rule,M0 historical absent-as-zero; M1 source-required unknown-as-missing.,Blank/NA/NOT_VERIFIABLE never means zero.,M0 unknown source=0 historical assumption | NOT_VERIFIABLE_UNSPECIFIED
+Table_S6_clean_and_dynamic.csv,Suppression_Scenario,Operational per-row assignment; not measured count or universal bound.,Blank/NA/NOT_VERIFIABLE never means zero.,MID5.5 | NOT_VERIFIABLE_UNSPECIFIED
+Table_S6_clean_and_dynamic.csv,Requested_n,Requested product observations before separation/support exclusions.,Blank/NA/NOT_VERIFIABLE never means zero.,1012 | 348
+Table_S6_clean_and_dynamic.csv,Effective_n,Effective product observations; blank/NOT_VERIFIABLE is not zero.,Blank/NA/NOT_VERIFIABLE never means zero.,1001 | 348
+Table_S6_clean_and_dynamic.csv,G,Effective state clusters unless historical record explicitly reports requested clusters.,Blank/NA/NOT_VERIFIABLE never means zero.,46 | 29
+Table_S6_clean_and_dynamic.csv,Model_Rank,"Rank of model design, not number of requested nominal columns.",Blank/NA/NOT_VERIFIABLE never means zero.,104 | 105
+Table_S6_clean_and_dynamic.csv,FE_Specification,Fixed-effect structure.,Blank/NA/NOT_VERIFIABLE never means zero.,F0 SP+Q+PA+PG+PAG | F0
+Table_S6_clean_and_dynamic.csv,Result_Status,Frozen numerical or structural disposition.,Blank/NA/NOT_VERIFIABLE never means zero.,VALID_EFFECTIVE_SAMPLE_RESULT | FAILED
+Table_S6_clean_and_dynamic.csv,Interpretation_Limitations,Limitations that remain attached to this row.,Blank/NA/NOT_VERIFIABLE never means zero.,Associational or descriptive only; reporting selection; no patient/CVD eligibility/equity outcome. | No finite all-parameter MLE; AK-Wegovy 11 zero rows separated; no REPRODUCED_ORIGINAL_SPEC.
+Table_S6_clean_and_dynamic.csv,Target,Coefficient or diagnostic target.,Blank/NA/NOT_VERIFIABLE never means zero.,DDD | Post×DDD
+Table_S6_clean_and_dynamic.csv,Support,Native/shared support definition; COMMON alone does not imply reuse.,Blank/NA/NOT_VERIFIABLE never means zero.,EFFECTIVE | CLEAN_M1
+Table_S6_clean_and_dynamic.csv,Sample_Key_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,852bff69e40a6f52e6efbcb47a5d56e09d5967cd01b6c4894cd2adcac6de57a3 | 8a3dc6350298d2b3ec661674231eb368541eb15d8f2f832a55a0f06b89085fa3
+Table_S6_clean_and_dynamic.csv,Model_Input_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,83002f557e831d0bac952bc23c46f3838176f1704fce9fb9c0edfe0094672a80 | 0c52dbff6d598100be6b126d8f3c1587b6d1286eef57cbbe0ad8b2988dad222a
+Table_S6_clean_and_dynamic.csv,Inference_Reference,t or legacy normal reference.,Blank/NA/NOT_VERIFIABLE never means zero.,t | CR1_normal_critical1.96
+Table_S6_clean_and_dynamic.csv,df,Reference degrees of freedom; usually G-1 for t.,Blank/NA/NOT_VERIFIABLE never means zero.,45 | 28
+Table_S6_clean_and_dynamic.csv,beta,Coefficient on model linear predictor scale.,Blank/NA/NOT_VERIFIABLE never means zero.,1.4085724951598007 | 1.4085724951597998
+Table_S6_clean_and_dynamic.csv,SE,Saved standard error of beta.,Blank/NA/NOT_VERIFIABLE never means zero.,0.5656287245940109 | 0.5656287245940123
+Table_S6_clean_and_dynamic.csv,IRR,Saved exponentiated count-model coefficient; blank for OLS transformed-rate ratio.,Blank/NA/NOT_VERIFIABLE never means zero.,4.0901125792291895 | 4.090112579229186
+Table_S6_clean_and_dynamic.csv,CI_low,"Saved lower 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,1.309097232438197 | 1.3090972324381926
+Table_S6_clean_and_dynamic.csv,CI_high,"Saved upper 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,12.779051468630032 | 12.779051468630055
+Table_S6_clean_and_dynamic.csv,P,Saved two-sided P value; no new testing.,Blank/NA/NOT_VERIFIABLE never means zero.,0.016523674457160895 | 0.016523674457161193
+Table_S6_clean_and_dynamic.csv,CR1,Frozen finite-sample cluster correction.,Blank/NA/NOT_VERIFIABLE never means zero.,1.1396011396011396 | 1.2927800616649539
+Table_S6_clean_and_dynamic.csv,Frozen_Object_Source,"Frozen provenance, definition, or disposition: Frozen Object Source. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04A_R3C\_working\effective_model.npz | PROJECT_ROOT/03_audit_outputs\Stage04C_A\_working\PRIMARY_BINARY_CLEAN_design.npz
+Table_S6_clean_and_dynamic.csv,Frozen_Object_SHA,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,2b3f5dab119f6a6508251ef14494cedc30b0444c468367a256a9c2161ca453cf | fe7c8694d33ea1fd1fb840fb71e4038852cb62fd3f7e2a69cae233ba5410265d
+Table_S6_clean_and_dynamic.csv,Population_Version,"Frozen provenance, definition, or disposition: Population Version. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,R3_LEGACY | R1
+Table_S6_clean_and_dynamic.csv,Observation_Unit,Unit represented by records.,Blank/NA/NOT_VERIFIABLE never means zero.,STATE_QUARTER_PRODUCT | RANK_DIAGNOSTIC_STATE_QUARTER_PRODUCT
+Table_S6_clean_and_dynamic.csv,Inference_Unit,Unit of uncertainty/cluster calculation.,Blank/NA/NOT_VERIFIABLE never means zero.,STATE_CLUSTER | NOT_APPLICABLE_UNESTIMATED
+Table_S6_clean_and_dynamic.csv,Source_Execution_Status,"Frozen provenance, definition, or disposition: Source Execution Status. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,ORIGINAL_SAVED_RESULT_OR_FROZEN_DESCRIPTION | G_SOLVER_FAIL;G_COV_NOT_VERIFIABLE
+Table_S6_clean_and_dynamic.csv,Exact_Delta_Beta,Saved deleted-state minus full-model log coefficient.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S6_clean_and_dynamic.csv,reference,Frozen reference provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,t
+Table_S7_cluster_influence.csv,state,Jurisdiction abbreviation; DC retained as state-level cluster.,Blank/NA/NOT_VERIFIABLE never means zero.,AR | AZ
+Table_S7_cluster_influence.csv,group,Frozen coverage environment.,Blank/NA/NOT_VERIFIABLE never means zero.,NONCOVERAGE | COVERAGE
+Table_S7_cluster_influence.csv,native_rows,Product observations contributed by this state to the native clean model.,Blank/NA/NOT_VERIFIABLE never means zero.,12 | 2
+Table_S7_cluster_influence.csv,DDD_weighted_residual_information_share,0–1 target weighted residual-information fraction from clean F0.,Blank/NA/NOT_VERIFIABLE never means zero.,6.753576116942474e-14 | 4.808574525602604e-31
+Table_S7_cluster_influence.csv,DDD_cluster_influence_variance_share,0–1 target sandwich-variance contribution from clean F0.,Blank/NA/NOT_VERIFIABLE never means zero.,4.109829123262202e-13 | 2.978829933524196e-59
+Table_S8_protocol_dispositions.csv,Analysis_ID,Frozen protocol analysis identity.,Blank/NA/NOT_VERIFIABLE never means zero.,04A-01 | 04A-02
+Table_S8_protocol_dispositions.csv,Priority,"Historical protocol priority, not ranking by statistical significance.",Blank/NA/NOT_VERIFIABLE never means zero.,ESSENTIAL | OPTIONAL
+Table_S8_protocol_dispositions.csv,original_scientific_question,"Historical protocol question, before this manuscript reconstruction.",Blank/NA/NOT_VERIFIABLE never means zero.,冻结环境与证据输入 | 原保存主规格能否独立复现
+Table_S8_protocol_dispositions.csv,frozen_population,Population fixed for this protocol analysis.,Blank/NA/NOT_VERIFIABLE never means zero.,Stage02已索引源+原稿候选 | 原requested1012 rows/46州；effective separation sample另标
+Table_S8_protocol_dispositions.csv,frozen_period,Calendar period fixed for this protocol analysis.,Blank/NA/NOT_VERIFIABLE never means zero.,冻结2019–2025源版本；访问2026-10-12 | 2023Q2–2025Q4含2024Q1
+Table_S8_protocol_dispositions.csv,frozen_model,Model fixed for this protocol analysis.,Blank/NA/NOT_VERIFIABLE never means zero.,metadata/sha256/static spec | PPML log条件均值；不得调用历史模块
+Table_S8_protocol_dispositions.csv,status,"Frozen provenance, definition, or disposition: status. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,COMPLETE_NUMERIC | COMPLETE_WITH_FORMAL_STOP
+Table_S8_protocol_dispositions.csv,essential_or_authorized_execution_disposed,Whether the authorized computational obligation has a recorded disposition; not scientific approval.,Blank/NA/NOT_VERIFIABLE never means zero.,True | False
+Table_S8_protocol_dispositions.csv,component_states,Component-stage outcomes for the protocol entry; not jurisdiction membership.,Blank/NA/NOT_VERIFIABLE never means zero.,P151 COMPLETE_NUMERIC; P2 NOT_VERIFIABLE | normal/t COMPLETE_NUMERIC; G_BOOT NOT_VERIFIABLE
+Table_S8_protocol_dispositions.csv,evidence_or_stop,"Frozen provenance, definition, or disposition: evidence or stop. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,"accepted substitute environment/1001 finite effective support and certified11 AK-W separation; full1012 finite all-FE replication not granted | formal33 records/23 valid/10 target-failed,13 new calculations; all frozen components/families accounted; R0 and COMMON SUP_M1 target inference remain NOT_V"
+Table_S8_protocol_dispositions.csv,earlier_E_B_status,"Frozen provenance, definition, or disposition: earlier E B status. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,OUTSIDE_OLD_E_B_COMPLETION_TABLE | COMPLETE_WITH_LIMITATIONS
+Table_S8_protocol_dispositions.csv,old_E_B_not_modified,Historical preservation flag; not a new estimate.,Blank/NA/NOT_VERIFIABLE never means zero.,True
+Table_S8_protocol_dispositions.csv,evidence_files,Sanitized evidence locators for the protocol disposition.,Blank/NA/NOT_VERIFIABLE never means zero.,PROJECT_ROOT/03_audit_outputs\Stage04A_R3C\04A_R3C_Executive_Report.md;PROJECT_ROOT/03_audit_outputs\Stage04A_R3C\04A_R3C_Model_Gates.csv | PROJECT_ROOT/03_audit_outputs\Stage04B\04B_Model_Results.csv;PROJECT_ROOT/03_audit_outputs\Stage04B\04B_R1_Quality_Assurance.md
+Table_S8_protocol_dispositions.csv,evidence_SHA256,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,a6a070440238dd8482a1341e7867abf63c54d362792eeb2838e0da21d8a75cbb;43803d282be04fe222b5e14726baf0bc38af41dce27180474c5a11631412ae5b | 6bdec789681d67f0d3434ced1b9382e283de129dc6192933477f046b2cf8b392;70a378d0b21c7772510200fcc25625bf7385fc7a70063fef281136829a6f0b1d
+Table_S8_protocol_dispositions.csv,unresolved_scientific_core_P0,"Historical unresolved scientific concern, retained without upgrading validity.",Blank/NA/NOT_VERIFIABLE never means zero.,True | not resolved by nonexecution
+Table_S8_protocol_dispositions.csv,requires_new_author_authorization,Whether additional work would require a new authorization; no work triggered by this field.,Blank/NA/NOT_VERIFIABLE never means zero.,YES for new data/method/design/optional work; no automatic Stage05
+Table_S8_protocol_dispositions.csv,protocol_SHA256,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,d9a6fabe44065a42d005a87d3400bc760e4d6c390dae6089c325057d9212cf30
+Table_S9_saved_historical_Wegovy.csv,Result_ID,Stable frozen result identity; not an independent study.,Blank/NA/NOT_VERIFIABLE never means zero.,H_DDD_001 | H_DDD_002
+Table_S9_saved_historical_Wegovy.csv,Analysis_ID,Frozen protocol analysis identity.,Blank/NA/NOT_VERIFIABLE never means zero.,HISTORICAL_DDD | HISTORICAL_EVENT
+Table_S9_saved_historical_Wegovy.csv,Stage,Frozen stage provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,ORIGINAL
+Table_S9_saved_historical_Wegovy.csv,Variant_ID,"Model, data-rule or diagnostic variant identity.",Blank/NA/NOT_VERIFIABLE never means zero.,Wegovy vs Ozempic__lower__PPML with state-brand and quarter fixed effects | Wegovy vs Ozempic__mid__PPML with state-brand and quarter fixed effects
+Table_S9_saved_historical_Wegovy.csv,Source_File,Sanitized source locator; PROJECT_ROOT is the audit root; EXTERNAL_SOURCE is the historical DATA source.,Blank/NA/NOT_VERIFIABLE never means zero.,EXTERNAL_SOURCE/ddd_model_results.csv | EXTERNAL_SOURCE/event_study_results.csv
+Table_S9_saved_historical_Wegovy.csv,Source_SHA,SHA256 of underlying frozen source bytes.,Blank/NA/NOT_VERIFIABLE never means zero.,5f520ea33026544fe653723f509fd0a4df3f2a97275b5643ccb7b543587d4b1d | aa4b16d760a3818d21cc0b49220e95eb435617a82ca55d9dc82a9001f387128d
+Table_S9_saved_historical_Wegovy.csv,Source_Record,One-based source CSV data-record number.,Blank/NA/NOT_VERIFIABLE never means zero.,1 | 2
+Table_S9_saved_historical_Wegovy.csv,Analysis_Population,Requested/effective geographic population definition.,Blank/NA/NOT_VERIFIABLE never means zero.,Historical requested saved sample; effective objects unavailable | NOT_VERIFIABLE_UNSPECIFIED
+Table_S9_saved_historical_Wegovy.csv,Quarter_Window,Frozen calendar window; C10 excludes 2024Q1.,Blank/NA/NOT_VERIFIABLE never means zero.,2023Q2-2025Q4 | Relative quarter -4
+Table_S9_saved_historical_Wegovy.csv,Exposure_Version,"Policy snapshot definition, not implementation timing.",Blank/NA/NOT_VERIFIABLE never means zero.,P1_JULY2024_FFS_OBESITY_ENVIRONMENT
+Table_S9_saved_historical_Wegovy.csv,Outcome,Outcome/scale actually represented.,Blank/NA/NOT_VERIFIABLE never means zero.,Prescription count | log(1+rate per100000)
+Table_S9_saved_historical_Wegovy.csv,Comparator,Comparison product or product pair.,Blank/NA/NOT_VERIFIABLE never means zero.,Wegovy vs Ozempic | Ozempic
+Table_S9_saved_historical_Wegovy.csv,Channel,"FFSU payment quarter, MCOU dispensing quarter, or their sum.",Blank/NA/NOT_VERIFIABLE never means zero.,FFSU_PAID_PLUS_MCOU_DISPENSE
+Table_S9_saved_historical_Wegovy.csv,Population_Denominator,Enrollment definition; total Medicaid is not channel-specific or adult eligibility.,Blank/NA/NOT_VERIFIABLE never means zero.,Total Medicaid quarterly enrollment
+Table_S9_saved_historical_Wegovy.csv,Missing_Rule,M0 historical absent-as-zero; M1 source-required unknown-as-missing.,Blank/NA/NOT_VERIFIABLE never means zero.,Historical missing0 | NOT_VERIFIABLE_UNSPECIFIED
+Table_S9_saved_historical_Wegovy.csv,Suppression_Scenario,Operational per-row assignment; not measured count or universal bound.,Blank/NA/NOT_VERIFIABLE never means zero.,lower | mid
+Table_S9_saved_historical_Wegovy.csv,Requested_n,Requested product observations before separation/support exclusions.,Blank/NA/NOT_VERIFIABLE never means zero.,1012
+Table_S9_saved_historical_Wegovy.csv,Effective_n,Effective product observations; blank/NOT_VERIFIABLE is not zero.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S9_saved_historical_Wegovy.csv,G,Effective state clusters unless historical record explicitly reports requested clusters.,Blank/NA/NOT_VERIFIABLE never means zero.,46
+Table_S9_saved_historical_Wegovy.csv,Model_Rank,"Rank of model design, not number of requested nominal columns.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S9_saved_historical_Wegovy.csv,FE_Specification,Fixed-effect structure.,Blank/NA/NOT_VERIFIABLE never means zero.,"PPML with state-brand and quarter fixed effects | OLS log(1+rate), state-brand and quarter fixed effects"
+Table_S9_saved_historical_Wegovy.csv,Result_Status,Frozen numerical or structural disposition.,Blank/NA/NOT_VERIFIABLE never means zero.,ORIGINAL_SAVED_RESULT
+Table_S9_saved_historical_Wegovy.csv,Interpretation_Limitations,Limitations that remain attached to this row.,Blank/NA/NOT_VERIFIABLE never means zero.,"Saved arithmetic only; historical convergence/covariance/effective n/r not revalidated. No causal validation. | Saved arithmetic only; historical convergence/covariance/effective n/r not revalidated. OLS exp(beta) is ratio of 1+rates, not IRR."
+Table_S9_saved_historical_Wegovy.csv,Target,Coefficient or diagnostic target.,Blank/NA/NOT_VERIFIABLE never means zero.,EventDDD[-4] | EventDDD[-3]
+Table_S9_saved_historical_Wegovy.csv,Support,Native/shared support definition; COMMON alone does not imply reuse.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S9_saved_historical_Wegovy.csv,Sample_Key_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S9_saved_historical_Wegovy.csv,Model_Input_Hash,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S9_saved_historical_Wegovy.csv,Inference_Reference,t or legacy normal reference.,Blank/NA/NOT_VERIFIABLE never means zero.,normal fixed1.96
+Table_S9_saved_historical_Wegovy.csv,df,Reference degrees of freedom; usually G-1 for t.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S9_saved_historical_Wegovy.csv,beta,Coefficient on model linear predictor scale.,Blank/NA/NOT_VERIFIABLE never means zero.,1.7516216865676535 | 1.408572495159802
+Table_S9_saved_historical_Wegovy.csv,SE,Saved standard error of beta.,Blank/NA/NOT_VERIFIABLE never means zero.,0.7555983869702652 | 0.565587251948782
+Table_S9_saved_historical_Wegovy.csv,IRR,Saved exponentiated count-model coefficient; blank for OLS transformed-rate ratio.,Blank/NA/NOT_VERIFIABLE never means zero.,5.763942408880411 | 4.090112579229195
+Table_S9_saved_historical_Wegovy.csv,CI_low,"Saved lower 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,1.3108146944956438 | 1.3498878046637033
+Table_S9_saved_historical_Wegovy.csv,CI_high,"Saved upper 95% limit, on effect scale described by Outcome/limitations.",Blank/NA/NOT_VERIFIABLE never means zero.,25.34533083310696 | 12.39289728596118
+Table_S9_saved_historical_Wegovy.csv,P,Saved two-sided P value; no new testing.,Blank/NA/NOT_VERIFIABLE never means zero.,0.02043892092918507 | 0.012757781257739778
+Table_S9_saved_historical_Wegovy.csv,CR1,Frozen finite-sample cluster correction.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S9_saved_historical_Wegovy.csv,Frozen_Object_Source,"Frozen provenance, definition, or disposition: Frozen Object Source. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S9_saved_historical_Wegovy.csv,Frozen_Object_SHA,Frozen cryptographic identity for the entity named by this field; SHA256.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S9_saved_historical_Wegovy.csv,Population_Version,"Frozen provenance, definition, or disposition: Population Version. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S9_saved_historical_Wegovy.csv,Observation_Unit,Unit represented by records.,Blank/NA/NOT_VERIFIABLE never means zero.,STATE_QUARTER_PRODUCT
+Table_S9_saved_historical_Wegovy.csv,Inference_Unit,Unit of uncertainty/cluster calculation.,Blank/NA/NOT_VERIFIABLE never means zero.,STATE_CLUSTER
+Table_S9_saved_historical_Wegovy.csv,Source_Execution_Status,"Frozen provenance, definition, or disposition: Source Execution Status. Literal categorical/text values retained; not a quantitative estimate.",Blank/NA/NOT_VERIFIABLE never means zero.,ORIGINAL_SAVED_RESULT_OR_FROZEN_DESCRIPTION
+Table_S9_saved_historical_Wegovy.csv,Exact_Delta_Beta,Saved deleted-state minus full-model log coefficient.,Blank/NA/NOT_VERIFIABLE never means zero.,
+Table_S9_saved_historical_Wegovy.csv,reference,Frozen reference provenance/identity field; preserved without reinterpretation.,Blank/NA/NOT_VERIFIABLE never means zero.,

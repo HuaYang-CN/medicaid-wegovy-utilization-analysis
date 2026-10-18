@@ -1,0 +1,11 @@
+﻿Measure,Coverage,Noncoverage
+Requested jurisdictions,12,34
+Effective states in primary model,10,19
+"Source-present jurisdictions, 2025Q4",9,17
+"Fully numeric jurisdictions, 2025Q4",5,1
+"Numeric prescriptions, 2025Q4",425773,11653
+"Suppressed source rows, 2025Q4",7,62
+"Assigned prescriptions at 5.5, 2025Q4",38.5,341.0
+"Unique R1 denominator, 2025Q4",21536032.7,26782375.7
+"Conditional rate per 100000, 2025Q4",1977.2,44.8
+Clean pre-event noncoverage Wegovy support,—,NM; 2 quarters; 12 suppressed rows; 66 assigned; 0 numeric rows

@@ -1,0 +1,11 @@
+C10 scenario inputs have the same 22 columns as CleanF0_frozen_model_input.csv.
+See CleanF0_data_dictionary.txt for field definitions. y is the prescription outcome; within a scenario it holds that scenario's
+NDC-level sum, not necessarily a 5.5 assignment. state/calendar_quarter/analytic_brand
+is the observation key. Missing source cells are excluded by frozen support rules.
+In Table S11: beta is log IRR, SE is state-CR1 standard error, CI/P use t(G-1).
+requested_n precedes LP; effective_n follows certified exclusion. Rank is the
+scaled SVD design rank; columns is actual matrix width. NA is not zero or one.
+Reference values are reused, not newly fitted. Full covariance and saved solver
+objects reside in the separate code release. LP directions/margins are model
+diagnostics, not inferred patient counts. Source locators are relative to the
+audit project; SHA256 fingerprints the exact frozen bytes.

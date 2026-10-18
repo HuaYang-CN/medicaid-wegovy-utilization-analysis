@@ -1,0 +1,149 @@
+{
+  "implemented_at": "2026-10-17T22:19:49.595827+08:00",
+  "source_QA": {
+    "completed_at": "2026-10-17T22:19:48.472503+08:00",
+    "output_hashes": {
+      "C10_SUPP_0_requested.csv": "2ed5a3d342fdecedb24cd9b4f9098cff3ae08c76dcf8315c9ee2d4b69d2683e9",
+      "C10_SUPP_5P5_REFERENCE_requested.csv": "fdd8cac6fa07bb2e9417466fcd28fdfb9d21039b43242173088dbec183fab0af",
+      "C10_SUPP_10_requested.csv": "02766eda944289b59902f4d7371d62f063b63d83b3ac32cf9182330edec861fe"
+    },
+    "source_rows": 5527,
+    "pairs": 174,
+    "independent_source_checks": [
+      {
+        "scenario": "C10_SUPP_0",
+        "independent_raw_NDC_sums_equal": true,
+        "requested_support_fixed": true,
+        "numbers_unchanged": true,
+        "source_missing_not_assigned": true
+      },
+      {
+        "scenario": "C10_SUPP_5P5_REFERENCE",
+        "independent_raw_NDC_sums_equal": true,
+        "requested_support_fixed": true,
+        "numbers_unchanged": true,
+        "source_missing_not_assigned": true
+      },
+      {
+        "scenario": "C10_SUPP_10",
+        "independent_raw_NDC_sums_equal": true,
+        "requested_support_fixed": true,
+        "numbers_unchanged": true,
+        "source_missing_not_assigned": true
+      }
+    ],
+    "source_population_reconstruction": "U/Y and R1; unchanged frozen offsets",
+    "original_design_exact": true
+  },
+  "reference": {
+    "status": "VERIFIED_FROZEN_REFERENCE_REUSED",
+    "refit_executed": false,
+    "actual_R1_verification": {
+      "scope": "One original clean F0 fit, original start and 1e-10 tolerance; NM matrix diagnostic only",
+      "n": 348,
+      "G": 29,
+      "rank": 70,
+      "estimates": {
+        "beta": -0.0002445627211488952,
+        "SE": 0.3286774412407873,
+        "IRR": 0.9997554671818756,
+        "CI_low": 0.5099157409657245,
+        "CI_high": 1.9601493224490112,
+        "P": 0.9994115852180573,
+        "reference": "t",
+        "df": 28
+      },
+      "differences_from_saved": {
+        "beta": 0.0,
+        "SE": 0.0,
+        "IRR": 0.0,
+        "CI_low": 0.0,
+        "CI_high": 0.0,
+        "P": 0.0
+      },
+      "original_beta_SE_tolerances_met": true,
+      "solver_gate": true,
+      "covariance_gate": true,
+      "separation_status": "NO_ZERO_OUTCOMES",
+      "iterations": 16,
+      "normalized_score": 5.9268019665297106e-15,
+      "last_five_deviance_relative_max": 6.848799768761658e-16,
+      "CR1": 1.2927800616649539,
+      "NM_deletion": {
+        "n": 332,
+        "G": 28,
+        "k": 68,
+        "rank": 66,
+        "rank_without_target": 66,
+        "target_estimable": false,
+        "fit_executed": false
+      },
+      "other_models": "NOT_EXECUTED",
+      "upstream_download_reproduction": "NOT_EXECUTED",
+      "original_historical_environment": "NOT_VERIFIABLE; using frozen independent audit environment"
+    }
+  },
+  "new_scenarios": [
+    {
+      "scenario": "C10_SUPP_0",
+      "status": "NOT_IDENTIFIABLE",
+      "QA": {
+        "target_projection_residual_max": 1.0880185641326534e-14,
+        "rank_by_numpy": 69,
+        "rank_without_target": 69,
+        "native_target_false": true,
+        "all_lower_order_terms_retained": true,
+        "GLM_skipped_because_nonidentified": true
+      }
+    },
+    {
+      "scenario": "C10_SUPP_10",
+      "status": "VALID_CONDITIONAL_SCENARIO",
+      "QA": {
+        "status": "PASS",
+        "algorithm": "distinct Newton/einsum/numpy solve/add.at/t-cdf-isf",
+        "checks": {
+          "all_beta": true,
+          "all_mu": true,
+          "full_covariance": true,
+          "SE": true,
+          "full_H": true,
+          "CR1": true,
+          "n_G_r": true,
+          "finite": true,
+          "symmetry": true,
+          "PSD": true,
+          "target_variance_positive": true
+        },
+        "estimate": {
+          "beta": -0.3597920024561688,
+          "SE": 0.32837636660763814,
+          "IRR": 0.6978214561260673,
+          "CI_low": 0.3561367484555537,
+          "CI_high": 1.367325294965109,
+          "P": 0.28255851733714415,
+          "df": 28
+        },
+        "iterations": 14,
+        "score": 1.84551873536675e-15,
+        "native_stability": {
+          "2": {
+            "params": true,
+            "mu": true,
+            "cov": true
+          },
+          "3": {
+            "params": true,
+            "mu": true,
+            "cov": true
+          }
+        },
+        "max_beta_difference": 4.8183679268731794e-14,
+        "max_mu_difference": 9.022187441587448e-10,
+        "max_cov_difference": 3.923250613269147e-14,
+        "symmetry": 1.521155666041976e-13,
+        "min_eigenvalue": -2.054312513674579e-16
+      }
+    }
+  ]
+}

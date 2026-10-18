@@ -1,0 +1,8 @@
+{
+  "target_projection_residual_max": 1.0880185641326534e-14,
+  "rank_by_numpy": 69,
+  "rank_without_target": 69,
+  "native_target_false": true,
+  "all_lower_order_terms_retained": true,
+  "GLM_skipped_because_nonidentified": true
+}

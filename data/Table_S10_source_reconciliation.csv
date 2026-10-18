@@ -1,0 +1,4 @@
+﻿scope,state,product,quarter,added_rows,numeric_rows,suppressed_rows,reported_numeric_rx_sum,unknown_rx,channels,product_name,NDC_scope,direct_Wegovy_Ozempic_input_change,status,limitation
+TARGET_51,AZ,ZEPBOUND,2024Q4,6,2,4,35,NOT_VERIFIABLE; not zero,MCOU,UNKNOWN,previously observed NDCs,NONE_IN_CHECKED_FINITE_KEYS,RESOLVED,Historical complete snapshot and NDC universe NOT_VERIFIABLE
+TARGET_51,CO,ZEPBOUND,2024Q4,5,2,3,23,NOT_VERIFIABLE; not zero,FFSU,UNKNOWN,previously observed NDCs,NONE_IN_CHECKED_FINITE_KEYS,RESOLVED,Historical complete snapshot and NDC universe NOT_VERIFIABLE
+TARGET_51,NC,ZEPBOUND,2024Q4,10,7,3,1411,NOT_VERIFIABLE; not zero,FFSU;MCOU,UNKNOWN,previously observed NDCs,NONE_IN_CHECKED_FINITE_KEYS,RESOLVED,Historical complete snapshot and NDC universe NOT_VERIFIABLE
