@@ -1,0 +1,5 @@
+# Independent QA scope
+
+Actual R2 execution: frozen NDC/raw-row reconstruction and population linkage verified all three requested inputs; 0 formal LP and independent bounded-cone LP agreed and independent target projection confirmed nonidentifiability; 10 passed the original native optimizer, score, covariance, rank and stability gates plus distinct Newton/einsum/solve/add.at/t-cdf validation. Complete saved certificates/objects are provided. Reference 5.5 was reused; its earlier R1 reproduction had matched the original exact estimates.
+
+Portable release tests separately validate the data aggregation, saved certificates and full sandwich/inference from actual objects without refitting. These checks do not make the upstream extraction reproducible at an unverified historical date. Source archive files receive syntax/security/static inspection only. Historical F2/F3 direct covariance failures and final Gram-form code are both preserved; full dynamic, placebo, policy and bootstrap stops remain real. Read test results before labeling a family reproduced.

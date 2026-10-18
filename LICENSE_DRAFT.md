@@ -1,0 +1,3 @@
+# License decision required before external release
+
+This candidate has no final public software license yet. Proposed choice for author-owned source: MIT, subject to author/institution confirmation of ownership and approval. This draft is not a grant of rights. Confirm the exact license before uploading and replace this file with the approved LICENSE. Dataset source terms remain separate from software licensing. CMS federal data are public-domain according to its API FAQ; attribution is retained. KFF source publications are cited, not redistributed in full. No third-party library source, journal full text, or private patient data is bundled.

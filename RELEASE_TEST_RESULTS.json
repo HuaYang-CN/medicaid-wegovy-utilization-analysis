@@ -1,0 +1,60 @@
+{
+  "scope": "Frozen count reconstruction, design, certificates and saved-object numerical checks; NO REFITS",
+  "checks": {
+    "C10_SUPP_0": {
+      "source_counts": "PASS",
+      "certificate_margins": "PASS",
+      "rank": 69,
+      "target": "NOT_IDENTIFIABLE",
+      "new_fit": false
+    },
+    "C10_SUPP_5P5_REFERENCE": {
+      "source_counts": "PASS",
+      "rank": 70,
+      "full_covariance": "PASS",
+      "inference": "PASS",
+      "score": 5.9268019665297106e-15,
+      "new_fit": false
+    },
+    "C10_SUPP_10": {
+      "source_counts": "PASS",
+      "rank": 70,
+      "full_covariance": "PASS",
+      "inference": "PASS",
+      "score": 7.678445692891465e-15,
+      "new_fit": false
+    },
+    "source_archive_syntax": "PASS",
+    "manifest_links": "PASS",
+    "source_hashes": "PASS"
+  },
+  "status": "PASS_SUPPORTED_CHECKS_ONLY",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "statsmodels": "0.15.0"
+  },
+  "figures": {
+    "status": "PASS",
+    "six_vector_PDFs": 6,
+    "reportlab": "4.4.9",
+    "new_model_fits": 0
+  },
+  "source_archive_after_path_refinement": "AST_SYNTAX_AND_HASH_CHECKED;NO_EXECUTION",
+  "tables": {
+    "status": "PASS",
+    "actual_entry": "python run.py tables",
+    "csv_count": 15,
+    "byte_identical": true,
+    "new_model_fits": 0
+  },
+  "final_manifest_static_check": {
+    "at": "2026-10-17T23:00:59.647378+08:00",
+    "source_files": 99,
+    "mapping_rows": 567,
+    "status": "PASS",
+    "new_model_fits": 0
+  }
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this code only after the authors complete its public release and archive."
+title: "Medicaid Wegovy reportability and comparative analysis code"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Hua
+  - family-names: Li
+    given-names: Hua
+version: 2.0.0-rc1
+abstract: "Local release candidate. Not publicly released. No DOI assigned."
